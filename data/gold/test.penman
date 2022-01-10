@@ -1,0 +1,69 @@
+# ::id bc.cctv_0000.5 ::save-date 08/01/2022 18:31:05 ::annotator SDL-AMR-09
+# ::snt Well , for several years , although it was still under construction and , er , not yet open , it can be said that many people have viewed Hong Kong with new respect .
+(c0 / have-concession-91~e.6
+    :ARG1 (c1 / possible-01~e.21
+              :ARG1 (c2 / say-01~e.23
+                        :ARG1~e.24 (c3 / view-02~e.28
+                                       :ARG0 (c4 / person~e.26
+                                                 :quant (c5 / many~e.25))
+                                       :ARG1 (c6 / city
+                                                 :wiki "Hong_Kong"
+                                                 :name (c8 / name
+                                                           :op1 "Hong"~e.29
+                                                           :op2 "Kong"~e.30))
+                                       :ARG2~e.31 (c11 / respect-01~e.33
+                                                       :ARG0 c4
+                                                       :ARG1 c6
+                                                       :ARG1-of (c12 / new-01~e.32))))
+              :duration (c13 / several~e.3
+                             :op1 (c14 / temporal-quantity
+                                       :quant 1
+                                       :unit (c16 / year~e.4))))
+    :ARG2 (c17 / and~e.12
+               :op1 (c18 / construct-01~e.11
+                         :ARG1 (c19 / it~e.7)
+                         :mod (c20 / still~e.9))
+               :op2 (c21 / open-09~e.18
+                         :polarity~e.16 -~e.16
+                         :ARG1 i~e.20
+                         :time (c24 / yet~e.17))))
+
+# ::id bc.cctv_0000.8 ::save-date None ::annotator SDL-AMR-09
+# ::snt In January of that year , the Hong Kong government turned over to Disney Corporation 200 hectares of land at the foot of Lantau Island that was obtained following the largest land reclamation project in recent years .
+(c0 / turn-over-12~e.10,11
+    :ARG0 (c1 / government-organization~e.9
+              :ARG0-of~e.9 (c2 / govern-01~e.9
+                               :ARG1 (c3 / city
+                                         :wiki "Hong_Kong"
+                                         :name (c5 / name
+                                                   :op1 "Hong"~e.7
+                                                   :op2 "Kong"~e.8))))
+    :ARG1 (c8 / land~e.18
+              :quant~e.17 (c9 / area-quantity
+                              :quant 200~e.15
+                              :unit (c11 / hectare~e.16))
+              :location~e.19 (c12 / foot~e.21
+                                  :part-of~e.22 (c13 / island
+                                                     :wiki "Lantau_Island"
+                                                     :name (c15 / name
+                                                                :op1 "Lantau"~e.23
+                                                                :op2 "Island"~e.24)))
+              :ARG1-of (c18 / obtain-01~e.27
+                            :ARG1-of (c19 / follow-01~e.28
+                                          :ARG2~e.30 (c20 / project~e.33
+                                                          :purpose (c21 / reclaim-01
+                                                                        :ARG1 (c22 / land~e.31))
+                                                          :ARG1-of (c23 / have-degree-91~e.30
+                                                                        :ARG2~e.30 (c24 / large~e.30
+                                                                                        :time~e.34 (c25 / year~e.36
+                                                                                                        :mod (c26 / recent~e.35)))
+                                                                        :ARG3~e.30 (c27 / most~e.30))))))
+    :ARG2~e.12 (c28 / company
+                    :wiki "The_Walt_Disney_Company"
+                    :name (c30 / name
+                               :op1 "Disney"~e.13
+                               :op2 "Corporation"~e.14))
+    :time (c33 / date-entity
+               :month~e.1 1~e.1
+               :mod (c35 / year~e.4
+                         :mod (c36 / that~e.3,25))))
