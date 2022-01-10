@@ -105,7 +105,6 @@ def check_NP(tree, index):
     path = tree.leaf_treeposition(index)[:-1]
     token = tree[tree.leaf_treeposition(index)[:-1]].leaves()[0]
     subtree = get_subtree(tree, path)
-    print(subtree)
     j = 0
     while token not in subtree[j].leaves():
         j += 1

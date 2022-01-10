@@ -31,4 +31,3 @@ def convert_corpus(input, output):
         convert(snt, g)
         text_file.write(penman.encode(g))
         text_file.write('\n\n')
-

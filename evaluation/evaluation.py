@@ -31,13 +31,11 @@ def f1(dict):
     elif tp + fn == 0:
         return "No tp+fn"
     precision = tp / (tp + fp)
-    print(tp, fp, precision)
     recall = tp / (tp + fn)
-    print(tp, fn, recall)
     if precision + recall == 0:
         return None
     else:
-        return 2 * ((precision * recall) / (precision + recall))
+        return (2 * ((precision * recall) / (precision + recall))) * 100
 
 
 def get_plural(g):
@@ -115,4 +113,3 @@ def evaluation(filename1, filename2):
     dict['Plural']['f1'], dict['Article']['f1'], dict['Quantifier']['f1'], dict['Intensionality']['f1'], dict['Overall']['f1'] = f1(dict['Plural']), f1(dict['Article']), f1(dict['Quantifier']), f1(dict['Intensionality']), f1(dict['Overall'])
 
     return dict
-

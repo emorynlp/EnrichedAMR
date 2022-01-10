@@ -26,7 +26,6 @@ def convert_content(snt, g):
             verb = getLemma(tokens[i], upos='VERB')[0]
             # check if exist in alignment
             if str(i) not in aligns.keys():
-                # print("FAIL due to no alignment")
                 continue
             else:
                 triple_ver = aligns[str(i)]

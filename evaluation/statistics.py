@@ -26,3 +26,4 @@ def statistics(filename):
         count_changes(g, count)
 
     return count
+
