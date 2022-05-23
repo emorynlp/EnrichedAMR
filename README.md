@@ -1,4 +1,4 @@
-# eAMR
+# Automatic (Enriched) AMR Annotator (A^3)
 
 This repository contains accompanying code for the paper Ji et al., (2022) *Automated Enrichment of Abstract Meaning Representations*
 
