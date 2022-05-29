@@ -40,7 +40,7 @@ def mod_to_quant(g):
                     if conflict:
                         continue
 
-                align = make_alignment(g, g.triples[i])
+                # align = make_alignment(g, g.triples[i])
                 quant_trip = [item for item in g.triples if item[2] == g.triples[i][0]]
                 for trip in quant_trip:
                     ind = [index for index in range(len(g.triples)) if g.triples[index] == trip][0]
@@ -78,5 +78,3 @@ def gen_quant(g):
     except Exception as e:
         print("An error has occured for gen_quant:", e)
         pass
-
-

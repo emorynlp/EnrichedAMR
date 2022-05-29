@@ -9,7 +9,7 @@ attitude_verbs = list(pd.read_csv('verb-list2.csv')['0'])
 intensional_trans_verbs = {'want-01': ':ARG1', 'expect-01': ':ARG1', 'need-01': ':ARG1', 'desire-01': ':ARG1', 'omit-01': ':ARG1',
                            'resemble-01': ':ARG2', 'imitate-01': ':ARG1', 'prefer-01': ':ARG1', 'imagine-01': ':ARG1', 'anticipate-01': ':ARG1','fear-01': ':ARG1'}
 communication_verbs = ['say', 'tell', 'report']
-modals = {'need-01': ':ARG1', 'possible-01': ':ARG1', 'obligate-01': ':ARG2', 'infer-01': ':ARG1', 'capable-01': ':ARG2', 'seem-01':':ARG1'}
+modals = {'need-01': ':ARG1', 'possible-01': ':ARG1', 'obligate-01': ':ARG2', 'infer-01': ':ARG1', 'capable-01': ':ARG2', 'seem-01':':ARG1', 'recommend-01':':ARG1'}
 
 
 def convert_content(snt, g):

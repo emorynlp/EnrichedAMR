@@ -36,11 +36,8 @@ def add_article(snt, g):
                         if pos[i][0].lower() in ['the']:
                             new_trip = tuple([trip[0], ':def', '+'])
                         else:
-                            # new_trip = tuple([trip[0], ':def' + align, '-' + align])
                             new_trip = tuple([trip[0], ':def', '-'])
                         g.triples.append(new_trip)
     except Exception as e:
         print("An error has occured for article:", e)
         pass
-
-

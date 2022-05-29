@@ -127,7 +127,7 @@
 # ::snt It is based on this that music and lights are arranged to reflect each other and perform a unique , er , and fascinating multi @-@ media world - class light show .
 # ::align a17/17
 (c0 / arrange-01~e.10
-    :ARG4~e.11 (c4 / and~e.15
+    :content~e.11 (c4 / and~e.15
                    :op2 (c6 / perform-01~e.16
                             :ARG1 (c7 / show-04~e.31
                                       :def -
@@ -192,7 +192,7 @@
                                                :def +
                                                :mod (c6 / business~e.17)))
                         :ARG1-of (c3 / private-03~e.7))
-              :ARG1 (c7 / invest-01~e.25
+              :content (c7 / invest-01~e.25
                         :ARG0 c2
                         :ARG2~e.26 (c8 / project~e.29
                                        :poss~e.27 (c9 / we~e.27)
@@ -710,7 +710,7 @@
                             :op2 (c6 / buy-01~e.14
                                      :ARG0 c16
                                      :ARG1 (c8 / thing.pl~e.16
-                                               :mod (c9 / some~e.15))))
+                                               :mod some~e.15)))
               :ARG0 i~e.3
               :time~e.31 (c12 / day~e.2
                               :mod (c13 / that~e.1)))
@@ -826,7 +826,6 @@
 # ::align a31/19 a32/23
 (c0 / reopen-01~e.17
     :frequency~e.18 (c21 / first~e.20
-                         :def +
                          :time~e.21 (c22 / since~e.22
                                          :op1 (c23 / attack-01.pl~e.27
                                                    :def +
@@ -862,7 +861,7 @@
 # ::snt The workshop 's anti @-@ terrorism experts are from 11 Arab countries including Algeria , Bahrain , Egypt , Jordan , Lebanon , Mauritania , Morocco , Saudi Arabia , Sudan , Syria and Yemen .
 # ::align a58/0
 (c0 / include-91~e.12
-    :ARG2 (c47 / country~e.11
+    :ARG2 (c47 / country.pl~e.11
                :source-of~e.8 (c49 / person.pl~e.6
                                    :poss~e.2 (c53 / workshop~e.1
                                                   :def +)
@@ -1177,7 +1176,7 @@
               :ARG1 (c4 / do-02~e.28
                         :ARG1 (c6 / thing.pl~e.30
                                   :def +
-                                  :ARG1-of (c7 / expect-01~e.33
+                                  :content-of (c7 / expect-01~e.33
                                                :source~e.34 (c9 / person
                                                                 :def -
                                                                 :mod (c10 / political-party
@@ -1281,7 +1280,7 @@
                                  :op1 "Limbaugh"~e.11)))
     :op2 (c16 / ask-01~e.25
               :content (c17 / know-01~e.30
-                            :ARG1 (c19 / dog~e.36
+                            :content (c19 / dog~e.36
                                        :def -
                                        :poss g3~e.34,35)
                             :ARG0 (c18 / you~e.29)
@@ -1391,8 +1390,8 @@
                                                :quant some
                                                :ARG1-of (c20 / evidence-01~e.28
                                                              :ARG0 (c21 / thing~e.24
-                                                                        :def -
-                                                                        :quant (c22 / scintilla~e.26)
+                                                                        :quant (c22 / scintilla~e.26
+                                                                                    :def -)
                                                                         :ARG1-of~e.24 (c23 / see-01~e.24
                                                                                            :polarity -
                                                                                            :ARG0 (c25 / i~e.20)
@@ -1708,8 +1707,8 @@
 # ::snt On their saying , " Father , what kind of bird is it ? " he replied , " To my certain knowledge he is a Daw ; but he would like you to think an Eagle . "
 # ::align a21/25 a20/35
 (c0 / reply-01~e.16
-    :ARG2 (c11 / contrast-01~e.28
-               :ARG2 (c16 / like-02~e.31
+    :content (c11 / contrast-01~e.28
+               :content (c16 / like-02~e.31
                           :ARG1 (c18 / think-01~e.34
                                      :content (c19 / eagle~e.36
                                                    :def -
@@ -1791,7 +1790,7 @@
     :content (c2 / join-01~e.27
                  :ARG0 c1
                  :ARG1 (c3 / thing~e.9
-                           :content-of~e.9 (c4 / wish-01~e.9
+                           :ARG1-of~e.9 (c4 / wish-01~e.9
                                                :ARG0 c1))
                  :ARG2 (c5 / amr-unknown~e.20,30
                            :ARG1-of (c6 / include-91
@@ -1820,7 +1819,6 @@
                            :purpose (c8 / possible-01~e.28
                                         :content (c9 / greet-01~e.29
                                                      :ARG2~e.31 (c11 / animal
-                                                                     :def +
                                                                      :ARG0-of (c12 / have-org-role-91~e.31,34
                                                                                    :ARG1 (c13 / bird.pl~e.35)
                                                                                    :ARG2 (c14 / queen~e.33
@@ -2166,10 +2164,9 @@
 (c0 / and~e.0
     :op2~e.0 (c1 / and~e.0,18
                  :op2 (c20 / plan-01~e.19
-                           :ARG1 (c21 / increase-01~e.21
+                           :content (c21 / increase-01~e.21
                                       :time~e.27 (c26 / after~e.29
                                                       :quant (c28 / temporal-quantity
-                                                                  :def +
                                                                   :quant 2~e.30
                                                                   :unit (c30 / year~e.31))
                                                       :op1~e.29 (c27 / now~e.29))
@@ -2223,7 +2220,7 @@
                                                                                                :ARG1 (c26 / factory.pl~e.33)))))
                                            :ARG0 c2)
                                 :ARG0 c2)
-                     :ARG0 (c2 / organization
+                     :ARG0 (c2 / organization.pl~e.19
                                :wiki -
                                :name (c4 / name
                                          :op1 "Committee"~e.7
@@ -2406,7 +2403,7 @@
                         :ARG2~e.6 (c3 / guy~e.8
                                       :def +
                                       :ARG0-of (c4 / promise-01~e.10
-                                                   :ARG2 (c5 / and~e.27
+                                                   :content (c5 / and~e.27
                                                              :op1 (c6 / pay-01~e.12
                                                                       :ARG0 c3
                                                                       :ARG2 (c7 / mortgage.pl~e.14
@@ -2519,7 +2516,7 @@
                                                                         :op1 "Austin"~e.19)))
                                         :op2 (c24 / plan-01~e.22
                                                   :ARG0 c19
-                                                  :ARG1 (c25 / donate-01~e.24
+                                                  :content (c25 / donate-01~e.24
                                                              :ARG0 c19
                                                              :ARG1 (c26 / stuff~e.25)))))))
 
@@ -2528,7 +2525,7 @@
 (c0 / and
     :op1 (c1 / mail~e.0
              :location-of (c2 / drop-off-03~e.3,4
-                              :ARG1 (c3 / supply-01~e.15
+                              :ARG1 (c3 / supply-01.pl~e.15
                                         :ARG1 (c4 / relieve-01~e.14
                                                   :ARG1 (c5 / person
                                                             :ARG0-of (c6 / have-rel-role-91
@@ -2582,11 +2579,11 @@
                               :topic (c13 / and~e.19,27,28,29
                                           :op2 (c17 / thing.pl~e.20
                                                     :def +
-                                                    :ARG1-of (c18 / need-01~e.23
+                                                    :content-of (c18 / need-01~e.23
                                                                   :ARG1-of (c19 / local-02~e.22)))
                                           :op3 (c20 / thing.pl~e.20
                                                     :def +
-                                                    :ARG1-of~e.29 (c21 / need-01~e.32
+                                                    :content-of~e.29 (c21 / need-01~e.32
                                                                        :ARG0 (c22 / region~e.31)))
                                           :op1 (c14 / organization.pl~e.14
                                                     :ARG0-of (c15 / accept-01~e.17
@@ -2735,7 +2732,6 @@
 # ::align a20/2 a21/29
 (c0 / and~e.8
     :op1 (c1 / same-01~e.7
-             :def +
              :ARG1 (c2 / react-01~e.3
                        :def +)
              :mod (c3 / of-course~e.0,1)
@@ -2850,7 +2846,7 @@
                                                                         :ARG2 c19))
                                                :ARG2~e.31 (c19 / problem~e.33
                                                                :def +)
-                                               :ARG1-of (c20 / likely-01~e.26)))
+                                               :content-of (c20 / likely-01~e.26)))
                        :wiki "The_New_England_Journal_of_Medicine"
                        :name (c6 / name
                                  :op1 "New"~e.18
@@ -2860,7 +2856,7 @@
                                  :op5 "Medicine"~e.22)
                        :time~e.17 (c12 / today~e.16))
     :concession~e.0 (c21 / report-01~e.4
-                         :ARG1 (c22 / thing.pl~e.2
+                         :content (c22 / thing.pl~e.2
                                     :ARG1-of~e.2 (c23 / find-01~e.2)
                                     :mod (c24 / preliminary~e.1))
                          :time (c25 / before~e.9
@@ -2939,8 +2935,7 @@
                                                                                                           :op1 "lung"~e.3
                                                                                                           :op2 "cancer"~e.4))))))
                            :ARG2~e.22 (c27 / high-02~e.22)
-                           :ARG3~e.22 (c28 / most~e.22
-                                           :def +)
+                           :ARG3~e.22 (c28 / most~e.22)
                            :ARG5 (c29 / person.pl~e.26
                                       :ARG0-of~e.26 (c30 / work-01~e.26
                                                          :ARG1 (c31 / asbestos~e.25))
@@ -3133,7 +3128,7 @@
                                                     :ARG1-of (c21 / same-01~e.21
                                                                   :ARG2 (c22 / magnitude~e.22
                                                                              :poss c15))))
-                     :ARG1 (c6 / preserve-01~e.26
+                     :content (c6 / preserve-01~e.26
                                :ARG0 (c7 / building.pl~e.24)
                                :ARG1 (c8 / frame~e.29
                                          :part-of (c9 / thing)
@@ -3248,7 +3243,7 @@
                                         :ARG0-of~e.33 (c23 / govern-01~e.33)
                                         :ARG1-of (c24 / responsible-02~e.32)
                                         :mod (c25 / any~e.31))
-                             :ARG1-of (c26 / recommend-01~e.34))))
+                             :content-of (c26 / recommend-01~e.34))))
 
 # ::id bolt12_10465_5592.2 ::save-date 07/01/2022 23:50:37 ::annotator SDL-AMR-09
 # ::snt If the simulation program was well designed , circumstances like debris blocking roads , heavy rainfall obstructing parachute drops , power and communication outages should all have been within expectations .
@@ -3259,9 +3254,9 @@
                                    :def +
                                    :purpose (c20 / simulate-01~e.2))
                         :manner (c21 / good-02~e.5))
-    :ARG1 (c1 / conform-01
+    :content (c1 / conform-01
               :ARG1 (c2 / circumstance.pl~e.8
-                        :mod (c3 / all~e.25)
+                        :quant all~e.25
                         :example~e.9 (c4 / and~e.21
                                          :op1 (c5 / block-01~e.11
                                                   :ARG1 (c6 / road.pl~e.12)
@@ -3271,7 +3266,7 @@
                                                             :manner (c10 / heavy~e.14))
                                                   :ARG1 (c11 / drop-01.pl~e.18
                                                              :manner (c12 / parachute-01~e.17)))
-                                         :op3 (c13 / out.pl-02
+                                         :op3 (c13 / out-02
                                                    :ARG1 (c14 / power-01~e.20))
                                          :op4 (c15 / out-02
                                                    :ARG1 (c16 / communicate-01~e.22))))
@@ -3282,7 +3277,7 @@
 # ::align a17/5 a18/24
 (c0 / contrast-01~e.0
     :ARG2 (c11 / recommend-01~e.2
-               :ARG1 (c12 / command-02~e.8
+               :content (c12 / command-02~e.8
                           :def -
                           :ARG1 (c13 / relieve-01~e.7
                                      :ARG1 (c14 / disaster~e.6))
@@ -3309,8 +3304,7 @@
     :time~e.0,2 (c14 / as-soon-as~e.1,2
                      :op1 (c15 / earthquake~e.4
                                :def +))
-    :manner~e.29 (c16 / interdependent~e.28
-                      :def -)
+    :manner~e.29 (c16 / interdependent~e.28)
     :op1 (c1 / contact-01~e.11
              :ARG0 (c2 / organization.pl~e.10
                        :mod (c3 / grass-roots~e.7))
@@ -3724,7 +3718,6 @@
                         :quant 1)
               :ARG4~e.6 (c8 / victim~e.8
                             :quant every
-                            :mod (c9 / every~e.7)
                             :ARG0-of (c10 / make-18~e.10
                                           :ARG1 (c11 / here~e.12)))
               :ARG0 (c2 / company

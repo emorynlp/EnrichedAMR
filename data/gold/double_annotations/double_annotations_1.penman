@@ -1,0 +1,2132 @@
+# ::id bc.cctv_0000.5 ::save-date 07/01/2022 23:53:32 ::annotator SDL-AMR-09
+# ::snt Well , for several years , although it was still under construction and , er , not yet open , it can be said that many people have viewed Hong Kong with new respect .
+(c0 / have-concession-91~e.6
+    :ARG1 (c1 / possible-01~e.21
+              :content (c2 / say-01~e.23
+                        :content~e.24 (c3 / view-02~e.28
+                                          :ARG0 (c4 / person.pl~e.26
+                                                    :quant (c5 / many~e.25))
+                                          :ARG1 (c6 / city
+                                                    :wiki "Hong_Kong"
+                                                    :name (c8 / name
+                                                              :op1 "Hong"~e.29
+                                                              :op2 "Kong"~e.30))
+                                          :ARG2~e.31 (c11 / respect-01~e.33
+                                                          :ARG0 c4
+                                                          :ARG1 c6
+                                                          :ARG1-of (c12 / new-01~e.32))))
+              :duration (c13 / several~e.3
+                             :op1 (c14 / temporal-quantity
+                                       :quant 1
+                                       :unit (c16 / year~e.4))))
+    :ARG2 (c17 / and~e.12
+               :op1 (c18 / construct-01~e.11
+                         :ARG1 (c19 / it~e.7)
+                         :mod (c20 / still~e.9))
+               :op2 (c21 / open-09~e.18
+                         :polarity~e.16 -~e.16
+                         :ARG1 i~e.20
+                         :time (c24 / yet~e.17))))
+
+# ::id bc.cctv_0000.8 ::save-date 07/01/2022 23:00:54 ::annotator SDL-AMR-09
+# ::snt In January of that year , the Hong Kong government turned over to Disney Corporation 200 hectares of land at the foot of Lantau Island that was obtained following the largest land reclamation project in recent years .
+# ::align a37/6 a38/20 a39/29
+(c0 / turn-over-12~e.10,11
+    :ARG0 (c1 / government-organization~e.9
+              :def +
+              :ARG0-of~e.9 (c2 / govern-01~e.9
+                               :ARG1 (c3 / city
+                                         :wiki "Hong_Kong"
+                                         :name (c5 / name
+                                                   :op1 "Hong"~e.7
+                                                   :op2 "Kong"~e.8))))
+    :ARG1 (c8 / land~e.18
+              :location~e.19 (c12 / foot~e.21
+                                  :def +
+                                  :part-of~e.22 (c13 / island
+                                                     :wiki "Lantau_Island"
+                                                     :name (c15 / name
+                                                                :op1 "Lantau"~e.23
+                                                                :op2 "Island"~e.24)))
+              :ARG1-of (c18 / obtain-01~e.27
+                            :ARG1-of (c19 / follow-01~e.28
+                                          :ARG2~e.30 (c20 / project~e.33
+                                                          :def +
+                                                          :purpose (c21 / reclaim-01
+                                                                        :ARG1 (c22 / land~e.31))
+                                                          :ARG1-of (c23 / have-degree-91~e.30
+                                                                        :ARG2~e.30 (c24 / large~e.30
+                                                                                        :time~e.34 (c25 / year~e.36
+                                                                                                        :mod (c26 / recent~e.35)))
+                                                                        :ARG3~e.30 (c27 / most~e.30)))))
+              :quant~e.17 (c9 / area-quantity
+                              :quant 200~e.15
+                              :unit (c11 / hectare~e.16)))
+    :ARG2~e.12 (c28 / company
+                    :wiki "The_Walt_Disney_Company"
+                    :name (c30 / name
+                               :op1 "Disney"~e.13
+                               :op2 "Corporation"~e.14))
+    :time (c33 / date-entity
+               :month~e.1 1~e.1
+               :mod (c35 / year~e.4
+                         :mod (c36 / that~e.3,25))))
+
+# ::id bc.cctv_0000.22 ::save-date 07/01/2022 22:19:31 ::annotator SDL-AMR-09
+# ::snt Er , according to what the security guard said , for the time before everything is officially opened , opened , all , no cars can enter unless they have special permission .
+# ::align a18/14
+(c0 / say-01~e.2,3,8
+    :content~e.10 (c4 / possible-01~e.25
+                      :time~e.12 (c8 / before~e.13
+                                     :op1 (c9 / open-01~e.17,19
+                                              :ARG1 (c10 / thing~e.14
+                                                         :quant every)
+                                              :manner~e.16 (c12 / official~e.16)))
+                      :polarity~e.23,27 -~e.23,27
+                      :content (c6 / enter-01~e.26
+                                :ARG0 (c7 / car.pl~e.24))
+                      :condition~e.27 (c13 / have-03~e.29
+                                           :polarity~e.27 -~e.27
+                                           :ARG0 c7
+                                           :ARG1 (c15 / permit-01~e.31
+                                                      :ARG1 c6
+                                                      :ARG1-of (c16 / special-02~e.30))))
+    :ARG0 (c1 / person~e.7
+              :def +
+              :ARG0-of~e.7 (c2 / guard-01~e.7
+                               :ARG1 (c3 / security~e.6))))
+
+# ::id bc.cctv_0000.79 ::save-date 07/01/2022 22:19:32 ::annotator SDL-AMR-09
+# ::snt %pw As our Victoria Harbor is %pw very famous , and , er , our nightscape is already very beautiful , by what means could we enhance the dynamic beauty of our nightscape ?
+# ::align a21/27
+(c0 / have-condition-91
+    :ARG1 (c1 / possible-01~e.24
+              :content (c2 / enhance-01~e.26
+                        :ARG1 (c4 / beautiful-02~e.29
+                                  :def +
+                                  :ARG1 (c5 / nightscape~e.15,32
+                                            :poss w~e.14,31)
+                                  :mod (c7 / dynamic~e.28))
+                        :ARG0 (c3 / we~e.25)
+                        :ARG2 (c8 / amr-unknown~e.22,33)))
+    :ARG2 (c9 / and~e.10
+              :op1 (c10 / fame-01~e.8
+                        :ARG1 (c11 / harbor
+                                   :wiki "Victoria_Harbour"
+                                   :name (c13 / name
+                                              :op1 "Victoria"~e.3
+                                              :op2 "Harbor"~e.4)
+                                   :poss~e.2 w~e.2)
+                        :degree (c17 / very~e.7))
+              :op2 (c18 / beautiful-02~e.19
+                        :ARG1 c5
+                        :time~e.1 (c19 / already~e.17)
+                        :degree (c20 / very~e.18))))
+
+# ::id bc.cctv_0000.82 ::save-date 07/01/2022 22:21:13 ::annotator SDL-AMR-09
+# ::snt It is based on this that music and lights are arranged to reflect each other and perform a unique , er , and fascinating multi @-@ media world - class light show .
+# ::align a17/17
+(c0 / arrange-01~e.10
+    :ARG4~e.11 (c4 / and~e.15
+                   :op2 (c6 / perform-01~e.16
+                            :ARG1 (c7 / show-04~e.31
+                                      :def -
+                                      :ARG1 (c8 / light~e.30)
+                                      :ARG3 (c9 / media~e.26
+                                                :mod (c10 / multi~e.24))
+                                      :ARG1-of (c11 / unique-01~e.18)
+                                      :ARG0-of (c12 / fascinate-01~e.23)
+                                      :mod (c13 / class~e.29
+                                                :mod (c14 / world~e.27)))
+                            :ARG0 c1)
+                   :op1 (c5 / reflect-01~e.12
+                            :ARG1 c1
+                            :ARG2 c1))
+    :ARG1 (c1 / and~e.7
+              :op1 (c2 / music~e.6)
+              :op2 (c3 / light.pl~e.8))
+    :ARG1-of (c15 / base-02~e.2
+                  :ARG2~e.3 (c16 / this~e.4)))
+
+# ::id bc.cctv_0000.87 ::save-date 07/01/2022 22:24:03 ::annotator SDL-AMR-09
+# ::snt Ten landmark buildings located on Hong Kong Island reveal themselves one by one , participating in the show in full splendor , presenting a world - class light extravaganza to a musical rhythm .
+# ::align a23/16 a24/23 a25/30
+(c0 / and
+    :op2 (c12 / participate-01~e.14
+              :ARG1~e.15 (c13 / show-04~e.17
+                              :def +)
+              :ARG0 c2
+              :manner~e.18 (c14 / splendor~e.20
+                                :degree (c15 / full~e.19)))
+    :op3 (c16 / present-01~e.22
+              :ARG1 (c17 / extravaganza~e.28
+                         :def -
+                         :mod (c18 / light~e.27)
+                         :mod (c19 / class~e.26
+                                   :mod (c20 / world~e.24)))
+              :manner~e.29 (c21 / rhythm~e.32
+                                :def -
+                                :mod (c22 / music~e.31))
+              :ARG0 c2)
+    :op1 (c1 / reveal-01~e.8
+             :ARG0 (c2 / building.pl~e.2
+                       :quant 10~e.0
+                       :mod (c4 / landmark~e.1)
+                       :location~e.3 (c5 / island
+                                         :wiki "Hong_Kong_Island"
+                                         :name (c7 / name
+                                                   :op1 "Hong"~e.5
+                                                   :op2 "Kong"~e.6
+                                                   :op3 "Island"~e.7)))
+             :ARG1 c2
+             :manner (c11 / one-by-one~e.10,11,12)))
+
+# ::id bc.cctv_0000.91 ::save-date 07/01/2022 22:24:36 ::annotator SDL-AMR-09
+# ::snt Their area of surprise was that those private , er , buildings , that is , the business community , ah , is willing to invest in our overall project .
+# ::align a15/16
+(c0 / surprise-01~e.3
+    :ARG0 (c1 / will-02~e.23
+              :ARG0 (c2 / building.pl~e.11
+                        :ARG1-of (c4 / mean-01
+                                     :ARG2 (c5 / community~e.18
+                                               :def +
+                                               :mod (c6 / business~e.17)))
+                        :ARG1-of (c3 / private-03~e.7))
+              :ARG1 (c7 / invest-01~e.25
+                        :ARG0 c2
+                        :ARG2~e.26 (c8 / project~e.29
+                                       :poss~e.27 (c9 / we~e.27)
+                                       :mod (c10 / overall~e.28)))
+              :mod (c11 / ah~e.20
+                        :mode~e.9,20 expressive~e.20))
+    :mod (c13 / area~e.1
+              :poss~e.0 (c14 / they~e.0)))
+
+# ::id bc.cctv_0000.94 ::save-date 07/01/2022 22:25:38 ::annotator SDL-AMR-09
+# ::snt Er , of course , after SARS , we felt that all of Hong Kong hopes to be involved , so that the Hong Kong tourism industry will recover , rebound together with other sectors .
+# ::align a24/11 a25/22
+(c0 / feel-01~e.9
+    :content~e.10 (c2 / hope-01~e.15
+                      :ARG0 (c3 / city
+                                :quant all
+                                :wiki "Hong_Kong"
+                                :name (c5 / name
+                                          :op1 "Hong"~e.13
+                                          :op2 "Kong"~e.14))
+                      :content (c9 / involve-01~e.18
+                                :ARG1 c3
+                                :purpose~e.20,21 (c10 / recover-01~e.28
+                                                      :ARG1 (c11 / industry~e.26
+                                                                 :def +
+                                                                 :mod (c12 / tourism~e.25)
+                                                                 :mod c~e.23,24
+                                                                 :ARG1-of (c14 / rebound-01~e.30
+                                                                               :accompanier~e.32 (c15 / sector.pl~e.34
+                                                                                                      :mod (c16 / other~e.33))
+                                                                               :manner (c17 / together~e.31))))))
+    :ARG0 (c1 / we~e.8)
+    :time (c18 / after~e.5
+               :op1 (c19 / disease
+                         :wiki "Severe_acute_respiratory_syndrome"
+                         :name (c21 / name
+                                    :op1 "SARS"~e.6)))
+    :mod (c23 / of-course~e.2,3))
+
+# ::id wiki-minicorpus-a_0013.1 ::save-date 07/01/2022 22:26:33 ::annotator SDL-AMR-09
+# ::snt <b> Faicchio </b> is a <i> comune </i> (municipality) in the Province of Benevento in the Italian region Campania , located about 50 km northeast of Naples and about 30 km northwest of Benevento .
+(c0 / municipality~e.9
+    :def -
+    :domain~e.3 (c1 / city
+                    :wiki "Faicchio"
+                    :name (c3 / name
+                              :op1 "Faicchio"~e.1))
+    :location~e.11 (c5 / province
+                       :wiki "Province_of_Benevento"
+                       :name (c7 / name
+                                 :op1 "Province"~e.13
+                                 :op2 "of"~e.14
+                                 :op3 "Benevento"~e.15)
+                       :part-of (c11 / country-region~e.19
+                                     :wiki "Campania"
+                                     :name (c13 / name
+                                                :op1 "Campania"~e.20)
+                                     :part-of (c15 / country
+                                                   :wiki "Italy"
+                                                   :name (c17 / name
+                                                              :op1 "Italy"~e.18))
+                                     :def +))
+    :location~e.22 (c19 / and~e.29
+                        :op1 (c20 / relative-position
+                                  :op1 (c21 / city
+                                            :wiki "Naples"
+                                            :name (c23 / name
+                                                       :op1 "Naples"~e.28))
+                                  :direction (c25 / northeast~e.26)
+                                  :quant (c26 / about~e.23
+                                              :op1 (c27 / distance-quantity
+                                                        :quant 50~e.24
+                                                        :unit (c29 / kilometer~e.25))))
+                        :op2 (c30 / relative-position
+                                  :op1 (c31 / city
+                                            :wiki "Benevento"
+                                            :name (c33 / name
+                                                       :op1 "Benevento"~e.35))
+                                  :direction (c35 / northwest~e.33)
+                                  :quant (c36 / about~e.23,30
+                                              :op1 (c37 / distance-quantity
+                                                        :quant 30~e.31
+                                                        :unit (c39 / kilometer~e.32))))))
+
+# ::id wiki-minicorpus-a_0015.1 ::save-date 07/01/2022 22:26:46 ::annotator SDL-AMR-09
+# ::snt <i> <b> Teheran 43 </b> </i> is a 1981 USSR @-@ France @-@ Switzerland drama film made by Mosfilm , <i> Mediterraneo Cine </i> and <i> Pro Dis Film </i> , directed by Aleksandr Alov and Vladimir Naumov .
+(c0 / film~e.15
+    :def -
+    :domain~e.6 (c1 / work-of-art
+                    :wiki "Teheran_43"
+                    :name (c3 / name
+                              :op1 "Teheran"~e.2
+                              :op2 43~e.3))
+    :time (c6 / date-entity
+              :year 1981~e.8)
+    :mod (c8 / country
+             :wiki "Soviet_Union"
+             :name (c10 / name
+                        :op1 "USSR"~e.9))
+    :mod (c12 / country
+              :wiki "France"
+              :name (c14 / name
+                         :op1 "France"~e.11))
+    :mod (c16 / country
+              :wiki "Switzerland"
+              :name (c18 / name
+                         :op1 "Switzerland"~e.13))
+    :mod (c20 / drama~e.14)
+    :ARG1-of (c21 / make-01~e.16
+                  :ARG0~e.17 (c22 / and~e.24
+                                  :op1 (c23 / company
+                                            :wiki "Mosfilm"
+                                            :name (c25 / name
+                                                       :op1 "Mosfilm"~e.18))
+                                  :op2 (c27 / company
+                                            :wiki -
+                                            :name (c29 / name
+                                                       :op1 "Mediterraneo"~e.21
+                                                       :op2 "Cine"~e.22))
+                                  :op3 (c32 / company
+                                            :wiki -
+                                            :name (c34 / name
+                                                       :op1 "Pro"~e.26
+                                                       :op2 "Dis"~e.27
+                                                       :op3 "Film"~e.28))))
+    :ARG1-of (c38 / direct-01~e.31
+                  :ARG0~e.32 (c39 / and~e.35
+                                  :op1 (c40 / person
+                                            :wiki "Aleksandr_Alov"
+                                            :name (c42 / name
+                                                       :op1 "Aleksandr"~e.33
+                                                       :op2 "Alov"~e.34))
+                                  :op2 (c45 / person
+                                            :wiki "Vladimir_Naumov"
+                                            :name (c47 / name
+                                                       :op1 "Vladimir"~e.36
+                                                       :op2 "Naumov"~e.37)))))
+
+# ::id wiki-minicorpus-a_0015.2 ::save-date 07/01/2022 22:27:48 ::annotator SDL-AMR-09
+# ::snt It is based on events around Operation Long Jump , the 1943 attempt by Nazi Germany to assassinate Winston Churchill , Joseph Stalin and Franklin Delano Roosevelt during the Tehran Conference .
+# ::align a43/10
+(c0 / base-02~e.2
+    :ARG2~e.3 (c2 / event.pl~e.4
+                  :topic (c3 / event
+                             :manner-of (c9 / attempt-01~e.12
+                                            :def +
+                                            :ARG0~e.13 (c10 / country
+                                                            :wiki "Germany"
+                                                            :name (c12 / name
+                                                                       :op1 "Germany"~e.15)
+                                                            :mod (c14 / political-movement
+                                                                      :wiki "Nazism"
+                                                                      :name (c16 / name
+                                                                                 :op1 "Nazism"~e.14)))
+                                            :content (c18 / assassinate-01~e.17
+                                                          :ARG0 c10
+                                                          :ARG1 (c19 / and~e.23
+                                                                     :op1 (c20 / person
+                                                                               :wiki "Winston_Churchill"
+                                                                               :name (c22 / name
+                                                                                          :op1 "Winston"~e.18
+                                                                                          :op2 "Churchill"~e.19))
+                                                                     :op2 (c25 / person
+                                                                               :wiki "Joseph_Stalin"
+                                                                               :name (c27 / name
+                                                                                          :op1 "Joseph"~e.21
+                                                                                          :op2 "Stalin"~e.22))
+                                                                     :op3 (c30 / person
+                                                                               :wiki "Franklin_D._Roosevelt"
+                                                                               :name (c32 / name
+                                                                                          :op1 "Franklin"~e.24
+                                                                                          :op2 "Delano"~e.25
+                                                                                          :op3 "Roosevelt"~e.26))
+                                                                     :time~e.27 (c36 / conference
+                                                                                     :wiki "Tehran_Conference"
+                                                                                     :name (c38 / name
+                                                                                                :op1 "Tehran"~e.29
+                                                                                                :op2 "Conference"~e.30))))
+                                            :time (c41 / date-entity
+                                                       :year 1943~e.11))
+                             :wiki "Operation_Long_Jump"
+                             :name (c5 / name
+                                       :op1 "Operation"~e.6
+                                       :op2 "Long"~e.7
+                                       :op3 "Jump"~e.8)))
+    :ARG1 (c1 / it~e.0))
+
+# ::id wiki-minicorpus-a_0016.1 ::save-date 07/01/2022 22:29:11 ::annotator SDL-AMR-09
+# ::snt <b> Trần Đại Quang </b> (born 12 October 1956) is a Vietnamese politician , who is the President of Vietnam , in office since 2 April 2016 and one of the country 's top leaders .
+(c0 / politician~e.14
+    :def -
+    :mod (c1 / country
+             :wiki "Vietnam"
+             :name (c3 / name
+                       :op1 "Vietnam"~e.13))
+    :ARG0-of (c5 / have-org-role-91~e.34
+                 :ARG1 c~e.21,33
+                 :ARG2 (c7 / president~e.19
+                           :def +)
+                 :time (c8 / since~e.25
+                           :op1 (c9 / date-entity
+                                    :day 2~e.26
+                                    :month~e.27 4~e.27
+                                    :year 2016~e.28)))
+    :ARG1-of (c13 / include-91
+                  :ARG2 (c14 / person.pl~e.36
+                             :ARG0-of~e.36 (c15 / lead-02~e.36
+                                                :ARG1 c1)
+                             :mod (c16 / top~e.35)))
+    :domain~e.11,17 (c17 / person~e.6
+                         :wiki "Trần_Đại_Quang"
+                         :name (c19 / name
+                                    :op1 "Trần"~e.1
+                                    :op2 "Đại"~e.2
+                                    :op3 "Quang"~e.3)
+                         :ARG1-of~e.6 (c23 / bear-02~e.6
+                                           :time (c24 / date-entity
+                                                      :day 12~e.7
+                                                      :month~e.8 10~e.8
+                                                      :year 1956~e.9))))
+
+# ::id wiki-minicorpus-a_0017.1 ::save-date 07/01/2022 22:29:28 ::annotator SDL-AMR-09
+# ::snt <b> Karl William Turner </b> (born 15 April 1971) is a British Labour Party politician , who has been the Member of Parliament (MP) for Kingston upon Hull East since 2010 .
+(c0 / politician~e.16
+    :def -
+    :ARG0-of (c1 / have-org-role-91~e.26
+                 :ARG1~e.26 (c2 / parliament~e.24,26)
+                 :ARG2~e.26 (c3 / member~e.22,26)
+                 :time (c4 / since~e.33
+                           :op1 (c5 / date-entity
+                                    :year 2010~e.34))
+                 :beneficiary (c7 / local-region
+                                  :wiki "Kingston_upon_Hull_East_(UK_Parliament_constituency)"
+                                  :name (c9 / name
+                                            :op1 "Kingston"~e.29
+                                            :op2 "upon"~e.30
+                                            :op3 "Hull"~e.31
+                                            :op4 "East"~e.32)))
+    :mod (c14 / country
+              :wiki "United_Kingdom"
+              :name (c16 / name
+                         :op1 "Britain"~e.13))
+    :ARG0-of (c18 / have-org-role-91~e.19
+                  :ARG1 (c19 / political-party
+                             :wiki "Labour_Party_(UK)"
+                             :name (c21 / name
+                                        :op1 "Labour"~e.14
+                                        :op2 "Party"~e.15))
+                  :ARG2 c3)
+    :domain~e.11,20 (c24 / person~e.6
+                         :wiki "Karl_Turner_(British_politician)"
+                         :name (c26 / name
+                                    :op1 "Karl"~e.1
+                                    :op2 "William"~e.2
+                                    :op3 "Turner"~e.3)
+                         :ARG1-of~e.6 (c30 / bear-02~e.6
+                                           :time (c31 / date-entity
+                                                      :day 15~e.7
+                                                      :month~e.8 4~e.8
+                                                      :year 1971~e.9))))
+
+# ::id wiki-minicorpus-a_0027.2 ::save-date 07/01/2022 22:29:57 ::annotator SDL-AMR-09
+# ::snt Known for most of its length as Oldhams Road , the state highway runs 9.76 miles (15.71 km) from SR 3 at Lyells north to SR 608 and SR 1007 in Kinsale .
+# ::align a42/10
+(c0 / run-04~e.13
+    :ARG1 (c1 / highway~e.12
+              :def +
+              :mod (c2 / state~e.11)
+              :ARG1-of (c3 / know-02~e.0
+                           :ARG2~e.6 (c4 / road
+                                         :wiki "Virginia_State_Route_203"
+                                         :name (c6 / name
+                                                   :op1 "Oldhams"~e.7
+                                                   :op2 "Road"~e.8))
+                           :ARG3~e.1 (c9 / most~e.2
+                                         :ARG3-of (c10 / include-91
+                                                       :ARG2 (c11 / long-03~e.5
+                                                                  :ARG1~e.4 h~e.4)))))
+    :ARG2 (c13 / distance-quantity
+               :quant 9.76~e.14
+               :unit (c15 / mile~e.15))
+    :ARG3~e.20 (c16 / road
+                    :wiki "Virginia_State_Route_3"
+                    :name (c18 / name
+                               :op1 "SR"~e.21
+                               :op2 3~e.22)
+                    :location (c21 / city
+                                   :wiki "Lyells,_Virginia"
+                                   :name (c23 / name
+                                              :op1 "Lyells"~e.24)))
+    :ARG4~e.32 (c25 / city
+                    :wiki "Kinsale,_Virginia"
+                    :name (c27 / name
+                               :op1 "Kinsale"~e.33))
+    :path (c29 / relative-position
+               :op1 (c30 / and~e.29
+                         :op1 (c31 / road
+                                   :wiki "Ohio_State_Route_608"
+                                   :name (c33 / name
+                                              :op1 "SR"~e.27
+                                              :op2 608~e.28))
+                         :op2 (c36 / road
+                                   :wiki "All_American_Freeway"
+                                   :name (c38 / name
+                                              :op1 "SR"~e.30
+                                              :op2 1007~e.31)))
+               :direction (c41 / north~e.25)))
+
+# ::id wiki-minicorpus-a_0028.2 ::save-date 07/01/2022 22:32:06 ::annotator SDL-AMR-09
+# ::snt Writing for the Court , Justice Scalia asserted that such action amounted to an unauthorized encroachment by Congress upon the powers of the judiciary and therefore violated the constitutional principle of separation of powers .
+# ::align a31/13 a32/19 a34/22 a33/27
+(c0 / assert-03~e.7
+    :content~e.8 (c7 / amount-02~e.11
+                     :ARG2~e.12 (c10 / encroach-01~e.15
+                                     :def -
+                                     :ARG1 (c15 / power.pl~e.20
+                                                :def +
+                                                :poss~e.21 (c16 / judiciary~e.23
+                                                                :def +))
+                                     :ARG0~e.16 (c11 / government-organization
+                                                     :wiki "United_States_Congress"
+                                                     :name (c13 / name
+                                                                :op1 "Congress"~e.17))
+                                     :ARG1-of (c17 / authorize-01
+                                                   :polarity -~e.14))
+                     :ARG0-of (c19 / cause-01~e.12,25
+                                   :ARG1 (c20 / violate-01~e.26
+                                              :ARG1 (c21 / principle~e.29
+                                                         :def +
+                                                         :mod (c22 / constitution~e.28)
+                                                         :topic~e.30 (c23 / separate-01~e.31
+                                                                          :ARG1~e.32 (c24 / power.pl~e.33)))
+                                              :ARG0 c8))
+                     :ARG1 (c8 / act-02~e.10
+                               :mod (c9 / such~e.9)))
+    :ARG0 (c1 / person
+              :wiki "Antonin_Scalia"
+              :name (c3 / name
+                        :op1 "Scalia"~e.6)
+              :ARG0-of (c5 / have-org-role-91
+                           :ARG2 (c6 / justice~e.5)))
+    :manner (c25 / write-01~e.0
+                 :ARG0 c1
+                 :ARG3-of (c26 / have-org-role-91
+                               :ARG1 (c27 / government-organization
+                                          :wiki "Supreme_Court_of_the_United_States"
+                                          :name (c29 / name
+                                                     :op1 "Court"~e.3)))))
+
+# ::id wiki-minicorpus-a_0030.1 ::save-date 07/01/2022 22:32:30 ::annotator SDL-AMR-09
+# ::snt <b> Posterior Polymorphous Corneal Dystrophy </b> (<b> PPCD </b> ; sometimes also <i> Schlichting dystrophy </i>) is a type of corneal dystrophy , characterised by changes in Descemet 's membrane and endothelial layer .
+(c0 / type-03~e.20
+    :def -
+    :ARG1 (c1 / disease
+              :wiki "Posterior_polymorphous_corneal_dystrophy"
+              :name (c3 / name
+                        :op1 "Posterior"~e.1
+                        :op2 "Polymorphous"~e.2
+                        :op3 "Corneal"~e.3
+                        :op4 "Dystrophy"~e.4)
+              :ARG1-of (c8 / characterize-01
+                           :ARG2 (c9 / change-01.pl~e.27
+                                     :ARG1~e.28 (c10 / and~e.32
+                                                     :op1 (c11 / thing
+                                                               :wiki "Descemet's_membrane"
+                                                               :name (c13 / name
+                                                                          :op1 "Descemet"~e.29
+                                                                          :op2 "'s"~e.30
+                                                                          :op3 "membrane"~e.31))
+                                                     :op2 (c17 / layer~e.34
+                                                               :mod (c18 / endothelium~e.33))))))
+    :ARG2 (c19 / dystrophy~e.15,23
+               :mod (c20 / cornea~e.22)))
+
+# ::id wb.c2e_0008.3 ::save-date 07/01/2022 22:33:26 ::annotator SDL-AMR-09
+# ::snt According to the international reports on January 11 , eBay announced that it will acquire online ticket website StubHub for 310 million US dollars in cash to further expand its influence on electronic commerce .
+(c0 / say-01~e.0,1
+    :ARG0 (c1 / report-01.pl~e.4
+              :def +
+              :mod (c2 / international~e.3))
+    :content (c3 / announce-01~e.10
+                 :ARG0 (c4 / company
+                           :wiki "EBay"
+                           :name (c6 / name
+                                     :op1 "eBay"~e.9))
+                 :content~e.11 (c8 / acquire-01~e.14
+                                :ARG0 c~e.12
+                                :ARG1 (c10 / company
+                                           :wiki "StubHub"
+                                           :name (c12 / name
+                                                      :op1 "StubHub"~e.18)
+                                           :mod (c14 / website~e.17
+                                                     :purpose (c15 / ticket~e.16)
+                                                     :mod (c16 / online~e.15)))
+                                :ARG3~e.19 (c17 / monetary-quantity
+                                                :quant 310000000~e.20,21
+                                                :unit (c19 / dollar~e.23)
+                                                :mod (c20 / country
+                                                          :wiki "United_States"
+                                                          :name (c22 / name
+                                                                     :op1 "US"~e.22))
+                                                :consist-of (c24 / cash~e.25))
+                                :purpose (c25 / expand-01~e.28
+                                              :ARG0 c4
+                                              :ARG1 (c26 / influence-01~e.30
+                                                         :ARG0 c4
+                                                         :ARG1~e.31 (c27 / commerce~e.33
+                                                                         :mod (c28 / electronic~e.32)))
+                                              :degree (c29 / further~e.27))))
+    :time~e.5 (c30 / date-entity
+                   :month~e.6 1~e.6
+                   :day 11~e.7))
+
+# ::id wb.c2e_0008.7 ::save-date 07/01/2022 22:36:42 ::annotator SDL-AMR-09
+# ::snt Over the past two years , as investors were concerned about the slowdown in eBay 's online auction business , its poor management , slow business expansion , and other factors , its market value has been dwindling .
+# ::align c28/1 a29/11
+(c0 / dwindle-01~e.37
+    :time~e.6 (c23 / before~e.2
+                   :duration (c25 / temporal-quantity
+                                  :def +
+                                  :quant 2~e.3
+                                  :unit (c27 / year~e.4))
+                   :op1~e.2 (c24 / now~e.2))
+    :time~e.6 (c7 / concern-01~e.9
+                  :ARG0 (c8 / and~e.28
+                            :op1 (c9 / slow-down-03~e.24
+                                     :def +
+                                     :ARG1 (c10 / business~e.18,25
+                                                :mod (c11 / auction-off-01~e.17)
+                                                :medium (c12 / online~e.16)
+                                                :poss~e.20 c~e.20))
+                            :op2 (c14 / manage-01~e.22
+                                      :ARG1 c3
+                                      :manner (c15 / poor~e.21))
+                            :op3 (c16 / expand-01~e.26
+                                      :ARG1 (c17 / business~e.25)
+                                      :ARG1-of (c18 / slow-05~e.24))
+                            :op4 (c19 / factor.pl~e.30
+                                      :mod (c20 / other~e.29)))
+                  :ARG1 (c21 / person.pl~e.7
+                             :ARG0-of~e.7 (c22 / invest-01~e.7
+                                               :ARG1 c3)))
+    :ARG1 (c1 / value~e.34
+              :mod (c2 / market~e.33)
+              :poss~e.15 (c3 / company
+                             :wiki "EBay"
+                             :name (c5 / name
+                                       :op1 "eBay"~e.14))))
+
+# ::id wb.c2e_0044.5 ::save-date 07/01/2022 22:38:14 ::annotator SDL-AMR-09
+# ::snt The teacher was very erudite , his lectures were very lively ; he summarized all of the recent and contemporary history of physics , and each time I was enthralled .
+# ::align a21/0 a22/14 a23/16 a24/25
+(c0 / multi-sentence
+    :snt1 (c1 / and
+              :op1 (c2 / erudite~e.4
+                       :domain~e.2 (c3 / person~e.1
+                                       :def +
+                                       :ARG0-of~e.1 (c4 / teach-01~e.1))
+                       :degree (c5 / very~e.3))
+              :op2 (c6 / lecture-01.pl~e.7
+                       :ARG0 c3
+                       :manner (c7 / lively~e.10
+                                   :degree (c8 / very~e.9))))
+    :snt2 (c9 / summarize-01~e.13
+              :ARG1 (c11 / history~e.20
+                         :quant all
+                         :def +
+                         :topic~e.21 (c12 / physics~e.22)
+                         :time (c13 / and~e.18,24
+                                    :op1 (c14 / recent~e.17)
+                                    :op2 (c15 / contemporary~e.19)))
+              :ARG0-of (c17 / enthrall-01~e.29
+                            :frequency (c19 / time~e.26
+                                            :quant each)
+                            :ARG1 (c18 / i~e.27))
+              :ARG0 (c10 / he~e.6,12)))
+
+# ::id wb.c2e_0044.7 ::save-date 07/01/2022 22:39:14 ::annotator SDL-AMR-09
+# ::snt If I were to summarize this course , it would be : the greatest discoveries in physics all had their own necessity and theoretical basis (for example , the development of mathematics) .
+# ::align a20/12 a22/28
+(c0 / have-03~e.18
+    :ARG0 (c1 / thing.pl~e.14
+              :def +
+              :ARG1-of~e.14 (c2 / discover-01~e.14)
+              :topic~e.15 (c3 / physics~e.16)
+              :quant all
+              :ARG1-of (c5 / have-degree-91~e.13,18
+                           :ARG2~e.13 (c6 / great~e.13)
+                           :ARG3~e.13 (c7 / most~e.13)))
+    :ARG1 (c8 / and~e.22
+              :example~e.26,27 (c14 / develop-02~e.30
+                                    :def +
+                                    :ARG1~e.31 (c15 / mathematics~e.32))
+              :op1 (c9 / thing~e.21
+                       :ARG1-of~e.21 (c10 / need-01~e.21
+                                          :ARG0~e.19 t~e.19))
+              :op2 (c12 / base-02~e.24
+                        :ARG1 c1
+                        :ARG2 (c13 / theory~e.23)))
+    :condition~e.0 (c16 / summarize-01~e.4
+                        :ARG0 (c17 / i~e.1)
+                        :ARG1 (c18 / course~e.6
+                                   :mod (c19 / this~e.5))))
+
+# ::id bc.cctv_0000.78 ::save-date 07/01/2022 22:10:16 ::annotator SDL-AMR-09
+# ::snt Across from the Avenue of Stars , a special performance is staged every weekend .
+# ::align a14/7
+(c0 / stage-01~e.11
+    :ARG1 (c1 / thing~e.9
+              :def -
+              :ARG1-of~e.9 (c2 / perform-01~e.9)
+              :ARG1-of (c3 / special-02~e.8))
+    :time (c4 / weekend~e.13
+              :frequency (c5 / every~e.12))
+    :location (c6 / across~e.0
+                  :op1~e.1 (c7 / facility
+                               :wiki "Avenue_of_Stars,_Hong_Kong"
+                               :name (c9 / name
+                                         :op1 "Avenue"~e.3
+                                         :op2 "of"~e.4
+                                         :op3 "the"~e.2
+                                         :op4 "Stars"~e.5))))
+
+# ::id bc.cctv_0000.142 ::save-date 07/01/2022 22:10:17 ::annotator SDL-AMR-09
+# ::snt Because , as everyone knows , our Disneyland will open in September of this year .
+# ::align a13/3
+(c0 / cause-01~e.0
+    :ARG1 (c1 / open-01~e.9
+              :content-of (c7 / know-01~e.4
+                           :ARG0 (c8 / person~e.3
+                                     :quant every))
+              :ARG1 (c2 / amusement-park
+                        :wiki "Hong_Kong_Disneyland"
+                        :name (c4 / name
+                                  :op1 "Disneyland"~e.7)
+                        :poss~e.6 (c6 / we~e.6))
+              :time~e.2 (c9 / date-entity
+                            :month~e.11 9~e.11
+                            :mod (c11 / year~e.14
+                                      :mod (c12 / this~e.13)))))
+
+# ::id bc.cctv_0000.193 ::save-date 07/01/2022 22:10:17 ::annotator SDL-AMR-09
+# ::snt Each day , there is always something new for people to experience and to love about this city .
+(c0 / thing~e.6
+    :quant some
+    :ARG1-of (c1 / new-02~e.7)
+    :ARG1-of~e.8 (c2 / experience-01~e.11
+                     :ARG0 (c3 / person.pl~e.9))
+    :topic~e.15 (c4 / city~e.17
+                    :mod (c5 / this~e.16))
+    :time (c6 / always~e.5)
+    :ARG1-of (c7 / love-01~e.14
+                 :ARG0 c3)
+    :frequency (c8 / rate-entity-91
+                   :ARG3 (c9 / temporal-quantity
+                             :quant 1
+                             :unit (c11 / day~e.1))))
+
+# ::id wb.c2e_0044.6 ::save-date 07/01/2022 22:10:17 ::annotator SDL-AMR-09
+# ::snt In all my five years at the university , I never had another course that interesting .
+# ::align a14/1 a15/6
+(c0 / have-03~e.11
+    :duration (c8 / temporal-quantity
+                  :quant all
+                  :location (c11 / university~e.7
+                                 :def +)
+                  :quant 5~e.3
+                  :unit (c10 / year~e.4)
+                  :poss i~e.2,9)
+    :polarity~e.10 -~e.10
+    :ARG0 (c2 / i)
+    :ARG1 (c3 / course~e.13
+              :ARG0-of (c4 / interest-01~e.15
+                           :ARG1 c2
+                           :degree (c5 / that~e.14))
+              :mod (c6 / another~e.12))
+    :time (c7 / ever~e.10))
+
+# ::id wb.c2e_0044.10 ::save-date 07/01/2022 22:10:18 ::annotator SDL-AMR-09
+# ::snt Here the dried tofu sold in the stores is all compressed , very tough .
+# ::align a9/1 a11/6 a10/9
+(c0 / compress-01~e.10
+    :ARG1 (c1 / tofu~e.3
+              :def +
+              :ARG1-of (c3 / sell-01~e.4
+                           :location~e.5 (c4 / store.pl~e.7
+                                             :def +))
+              :quant all
+              :ARG1-of (c2 / dry-02~e.2)
+              :ARG1-of (c6 / tough-04~e.13
+                           :degree (c7 / very~e.12)))
+    :location (c8 / here~e.0))
+
+# ::id wb.c2e_0050.12 ::save-date 07/01/2022 22:11:15 ::annotator SDL-AMR-09
+# ::snt In other words , everybody tends to mistake the part for the whole .
+# ::align a7/4 a8/8 a9/11
+(c0 / word-01.pl~e.2
+    :ARG1 (c1 / tend-02~e.5
+              :ARG1 (c2 / person~e.4
+                        :quant every)
+              :ARG2 (c3 / mistake-01~e.7
+                        :ARG0 c2
+                        :ARG1 (c4 / part~e.9
+                                  :def +)
+                        :ARG2~e.10 (c5 / whole~e.12
+                                       :def +)))
+    :mod (c6 / other~e.1))
+
+# ::id PROXY_AFP_ENG_20020128_0449.11 ::save-date 07/01/2022 22:12:02 ::annotator LDC-AMR-14
+# ::snt Power cuts could lead to a failure of all work with space craft .
+# ::align a8/5 a9/8
+(c0 / possible-01~e.2
+    :content (c1 / lead-03~e.3
+              :ARG2~e.4 (c4 / fail-01~e.6
+                            :def -
+                            :ARG2~e.7 (c5 / work-01~e.9
+                                          :quant all
+                                          :ARG1~e.10 (c6 / spacecraft~e.11,12)))
+              :ARG0 (c2 / cut-02.pl~e.1
+                        :ARG1 (c3 / power~e.0))))
+
+# ::id PROXY_AFP_ENG_20020128_0449.25 ::save-date 07/01/2022 22:13:12 ::annotator LDC-AMR-14
+# ::snt Several other military bases including some strategic defense units were affected by the power outage .
+# ::align a12/5 a13/12
+(c0 / affect-01~e.10
+    :ARG1 (c3 / base.pl~e.3
+              :ARG2-of (c7 / include-91~e.4
+                           :ARG1 (c8 / unit.pl~e.8
+                                     :quant some
+                                     :ARG2-of (c9 / defend-01~e.7
+                                                  :mod (c10 / strategy~e.6))))
+              :mod (c4 / military~e.2)
+              :mod (c5 / other~e.1
+                       :quant (c6 / several~e.0)))
+    :ARG0~e.11 (c1 / outage~e.14
+                   :def +
+                   :mod (c2 / power-01~e.13)))
+
+# ::id PROXY_AFP_ENG_20020304_0028.23 ::save-date 07/01/2022 22:14:07 ::annotator LDC-AMR-14
+# ::snt The Su @-@ 35 placed fourth with ratings of ordinary in all five categories .
+# ::align a11/11
+(c0 / place-01~e.4
+    :ARG1 (c1 / aircraft-type~e.7
+              :ARG1-of~e.7 (c5 / rate-01.pl~e.7
+                               :ARG3~e.10 (c7 / category.pl~e.13
+                                              :quant all
+                                              :quant 5~e.12)
+                               :ARG2~e.8 (c6 / ordinary~e.9))
+              :wiki "Sukhoi_Su-35"
+              :name (c3 / name
+                        :op1 "Su-35"~e.1,3))
+    :ARG2 (c10 / fourth~e.5))
+
+# ::id bolt-eng-DF-170-181103-8881981_0040.4 ::save-date 07/01/2022 22:14:47 ::annotator LDC-AMR-14
+# ::snt Rush , Levin , Hannity , Savage etc. all said Romney was the conservative candidate .
+(c0 / say-01~e.9
+    :ARG0 (c1 / all~e.8
+              :consist-of (c2 / and~e.7
+                              :op1 (c3 / person
+                                       :wiki "Rush_Limbaugh"
+                                       :name (c5 / name
+                                                 :op1 "Rush"~e.0))
+                              :op2 (c7 / person
+                                       :wiki "Mark_Levin"
+                                       :name (c9 / name
+                                                 :op1 "Levin"~e.2))
+                              :op3 (c11 / person
+                                        :wiki "Sean_Hannity"
+                                        :name (c13 / name
+                                                   :op1 "Hannity"~e.4))
+                              :op4 (c15 / person
+                                        :wiki "Michael_Savage"
+                                        :name (c17 / name
+                                                   :op1 "Savage"~e.6))
+                              :op5~e.7 (c19 / et-cetera~e.7)))
+    :content (c20 / candidate~e.14
+                  :def +
+                  :mod (c21 / conservative~e.13)
+                  :domain~e.11 (c22 / person
+                                    :wiki "Mitt_Romney"
+                                    :name (c24 / name
+                                               :op1 "Romney"~e.10))))
+
+# ::id nw.chtb_0027.8 ::save-date 07/01/2022 22:58:51 ::annotator SDL-AMR-09
+# ::snt It is thought that the purpose of this visit is to improve and develop the relationship between the two countries , to strengthen bilateral economic and trade co @-@ operation and to expand Thailand 's investment in Myanmar .
+# ::align a24/4 a25/14
+(c0 / think-01~e.2
+    :content (c1 / have-purpose-91~e.5
+                 :def +
+                 :ARG2 (c4 / and~e.12,30
+                           :op1 (c5 / improve-01~e.11
+                                    :ARG1 (c6 / relation-03
+                                              :def +
+                                              :ARG0 (c7 / country
+                                                        :wiki "Thailand"
+                                                        :name (c9 / name
+                                                                  :op1 "Thailand"~e.33))
+                                              :ARG2 (c11 / country
+                                                         :wiki "Myanmar"
+                                                         :name (c13 / name
+                                                                    :op1 "Myanmar"~e.37))))
+                           :op2 (c15 / develop-02~e.13
+                                     :ARG1 r~e.15,16,17,18,19)
+                           :op3 (c17 / strengthen-01~e.22
+                                     :ARG1 (c18 / cooperate-01~e.29
+                                                :ARG0 c7
+                                                :ARG1 c11
+                                                :mod (c19 / bilateral~e.23)
+                                                :mod (c20 / economy~e.24)
+                                                :mod (c21 / trade-01~e.26)))
+                           :op4 (c22 / expand-01~e.32
+                                     :ARG1 (c23 / invest-01~e.35
+                                                :ARG0 c7
+                                                :ARG2 c11)))
+                 :ARG1 (c2 / visit-01~e.8
+                           :mod (c3 / this~e.7))))
+
+# ::id nw.chtb_0028.2 ::save-date 07/01/2022 22:58:51 ::annotator SDL-AMR-09
+# ::snt General Electric of the US and the Southwest Medical Equipment Factory of the Medical Appliance Industry Company of China recently signed a contract to jointly invest 6 million US dollars to establish a joint venture enterprise in Chengdu .
+# ::align a46/21 a47/32
+(c0 / sign-02~e.20
+    :ARG1 (c10 / contract-02~e.22
+               :def -
+               :ARG1 (c11 / invest-01~e.25
+                          :ARG2 (c18 / establish-01~e.31
+                                     :ARG1 (c19 / enterprise~e.35
+                                                :def -
+                                                :mod (c20 / venture~e.34)
+                                                :mod (c21 / joint~e.33))
+                                     :ARG0 c12
+                                     :location~e.36 (c22 / city
+                                                         :wiki "Chengdu"
+                                                         :name (c24 / name
+                                                                    :op1 "Chengdu"~e.37)))
+                          :ARG0 (c12 / and~e.5
+                                     :op1 c1
+                                     :op2 c27)
+                          :ARG1 (c14 / monetary-quantity
+                                     :quant 6000000~e.26,27
+                                     :unit (c16 / dollar~e.29
+                                                :mod c2~e.28))
+                          :manner~e.24 (c26 / joint~e.24)))
+    :ARG0 (c1 / company
+              :wiki "General_Electric"
+              :name (c3 / name
+                        :op1 "General"~e.0
+                        :op2 "Electric"~e.1)
+              :location (c6 / country
+                            :wiki "United_States"
+                            :name (c8 / name
+                                      :op1 "US"~e.4)))
+    :ARG2 (c27 / company
+               :wiki -
+               :name (c29 / name
+                          :op1 "Southwest"~e.7
+                          :op2 "Medical"~e.8
+                          :op3 "Equipment"~e.9
+                          :op4 "Factory"~e.10)
+               :part-of (c34 / company
+                             :wiki -
+                             :name (c36 / name
+                                        :op1 "Medical"~e.13
+                                        :op2 "Appliance"~e.14
+                                        :op3 "Industry"~e.15
+                                        :op4 "Company"~e.16)
+                             :location (c41 / country
+                                            :wiki "China"
+                                            :name (c43 / name
+                                                       :op1 "China"~e.18))))
+    :time (c45 / recent~e.19))
+
+# ::id nw.chtb_0028.8 ::save-date 07/01/2022 22:58:51 ::annotator SDL-AMR-09
+# ::snt Moreover , in 1994 , GE purchased more than 40 million US dollars in products in China , and planned to increase purchasing volume of Chinese products in the next two years .
+# ::align a33/28
+(c0 / and~e.0
+    :op2~e.0 (c1 / and~e.0,18
+                 :op2 (c20 / plan-01~e.19
+                           :content (c21 / increase-01~e.21
+                                      :time~e.27 (c26 / after~e.29
+                                                      :quant (c28 / temporal-quantity
+                                                                  :def +
+                                                                  :quant 2~e.30
+                                                                  :unit (c30 / year~e.31))
+                                                      :op1~e.29 (c27 / now~e.29))
+                                      :ARG0 c3
+                                      :ARG1 (c22 / volume~e.23
+                                                 :quant-of (c23 / purchase-01~e.22
+                                                                :ARG1~e.24 (c24 / product.pl~e.26
+                                                                                :mod c2~e.25))))
+                           :ARG0 c3)
+                 :op1 (c2 / purchase-01~e.6
+                          :ARG0 (c3 / company
+                                    :wiki "General_Electric"
+                                    :name (c5 / name
+                                              :op1 "GE"~e.5))
+                          :ARG1~e.13 (c7 / product.pl~e.14)
+                          :ARG3 (c8 / more-than~e.7,8
+                                    :op1 (c9 / monetary-quantity
+                                             :quant 40000000~e.9,10
+                                             :unit (c11 / dollar~e.12
+                                                        :mod (c12 / country
+                                                                  :wiki "United_States"
+                                                                  :name (c14 / name
+                                                                             :op1 "US"~e.11)))))
+                          :location~e.15 (c16 / country
+                                              :wiki "China"
+                                              :name (c18 / name
+                                                         :op1 "China"~e.16))))
+    :time (c31 / date-entity
+               :year~e.31 1994~e.3))
+
+# ::id nw.chtb_0048.8 ::save-date 07/01/2022 22:58:52 ::annotator SDL-AMR-09
+# ::snt It is reported that next year the Committee of Foreign Economy and Trade of Tianjin will continue to adopt measures to organize and guide a number of enterprises overseas to invest and build factories .
+# ::align a29/24
+(c0 / report-01~e.2
+    :content~e.3 (c1 / continue-01~e.16
+                     :ARG1 (c15 / adopt-01~e.18
+                                :ARG1 (c16 / measure-02.pl~e.19
+                                           :ARG1~e.20 (c17 / and~e.22
+                                                           :op1 (c18 / organize-01~e.21
+                                                                     :ARG1 (c19 / enterprise.pl~e.27
+                                                                                :quant~e.26 (c21 / number~e.25
+                                                                                                 :def -)
+                                                                                :location (c20 / overseas~e.28)))
+                                                           :op2 (c22 / guide-01~e.23
+                                                                     :ARG1 c19
+                                                                     :ARG2~e.29 (c23 / and~e.31
+                                                                                     :op1 (c24 / invest-01~e.30
+                                                                                               :ARG0 c19)
+                                                                                     :op2 (c25 / build-01~e.32
+                                                                                               :ARG0 c19
+                                                                                               :ARG1 (c26 / factory.pl~e.33)))))
+                                           :ARG0 c2)
+                                :ARG0 c2)
+                     :ARG0 (c2 / organization
+                               :wiki -
+                               :name (c4 / name
+                                         :op1 "Committee"~e.7
+                                         :op2 "of"~e.8
+                                         :op3 "Foreign"~e.9
+                                         :op4 "Economy"~e.10
+                                         :op5 "and"~e.11
+                                         :op6 "Trade"~e.12)
+                               :location (c11 / city
+                                              :wiki "Tianjin"
+                                              :name (c13 / name
+                                                         :op1 "Tianjin"~e.14)))
+                     :time (c27 / year~e.5
+                                :mod (c28 / next~e.4))))
+
+# ::id DF-170-181103-888_2466.25 ::save-date 07/01/2022 22:58:52 ::annotator LDC-AMR-14
+# ::snt Homeowners generally have insurance , but Federal Aid is necessary to provide for the clean up , repairs of electrical and water systems , roads , schools , buses , etc. etc.
+# ::align a24/13
+(c0 / contrast-01~e.5
+    :ARG2 (c7 / need-01~e.9
+              :ARG0 (c8 / provide-01~e.11
+                        :ARG2~e.12 (c10 / and
+                                        :op1 (c11 / clean-up-02~e.14,15
+                                                  :def +)
+                                        :op2 (c12 / repair-01.pl~e.17
+                                                  :ARG1~e.18 (c13 / and~e.20,30,31
+                                                                  :op1 (c14 / system.pl~e.22
+                                                                            :mod (c15 / electricity~e.19))
+                                                                  :op2 (c16 / system.pl~e.22
+                                                                            :mod (c17 / water~e.21))
+                                                                  :op3 (c18 / road.pl~e.24)
+                                                                  :op4 (c19 / school.pl~e.26)
+                                                                  :op5 (c20 / bus.pl~e.28)
+                                                                  :op6~e.30,31 (c21 / et-cetera~e.30,31))))
+                        :ARG0 c22)
+              :content (c22 / aid-01~e.7
+                         :mod (c23 / federal~e.6)))
+    :ARG1 (c1 / have-03~e.2
+              :ARG0 (c2 / person.pl
+                        :ARG0-of (c3 / own-01
+                                     :ARG1 (c4 / home)))
+              :ARG1 (c5 / insurance~e.3)
+              :ARG1-of (c6 / general-02~e.1)))
+
+# ::id DF-170-181103-888_2466.27 ::save-date 07/01/2022 22:58:53 ::annotator LDC-AMR-14
+# ::snt Anyone who suffers a loss as have those who lost everything over the weekend will not be made whole , and whatever claim they receive will not come soon or easy .
+# ::align a21/3 a23/10 a22/12
+(c0 / and~e.20
+    :op1 (c1 / make-18~e.17
+             :ARG0 (c3 / anyone~e.0
+                       :ARG0-of (c4 / suffer-01~e.2
+                                    :ARG1 (c5 / lose-02~e.4
+                                              :def -)
+                                    :ARG1-of (c6 / resemble-01
+                                                 :ARG2 (c7 / person.pl~e.9
+                                                           :ARG0-of~e.9 (c8 / lose-02~e.9
+                                                                            :ARG1 (c9 / thing~e.10
+                                                                                      :quant every)
+                                                                            :time~e.5 (c10 / weekend~e.13
+                                                                                           :def +))))))
+             :polarity~e.15 -~e.15
+             :ARG1 (c11 / whole~e.18))
+    :op2 (c12 / come-01~e.27
+              :ARG1 (c13 / claim~e.22
+                         :mod (c14 / whatever~e.21)
+                         :ARG1-of (c15 / receive-01~e.24
+                                       :ARG0 a2~e.23))
+              :mod (c17 / soon~e.28
+                        :polarity~e.26 -~e.26)
+              :ARG1-of (c19 / easy-05~e.30
+                            :polarity~e.26 -~e.26)))
+
+# ::id DF-170-181103-888_2529.9 ::save-date 07/01/2022 22:58:53 ::annotator LDC-AMR-14
+# ::snt Why is it literally 100 % impossible for the liberal mind to understand that just because you do n't want government involved in something does n't mean you 're against it ?
+# ::align a24/8 a25/23
+(c0 / possible-01~e.6
+    :content (c2 / understand-01~e.2,11,12,30
+              :ARG0 (c3 / mind~e.10
+                        :def +
+                        :ARG1-of (c4 / liberal-02~e.9))
+              :content (c5 / cause-01~e.15
+                           :ARG0 (c6 / want-01
+                                     :content (c9 / involve-01
+                                                  :ARG2 (c12 / thing
+                                                             :quant some)
+                                                  :ARG1 (c10 / government-organization
+                                                             :ARG0-of (c11 / govern-01)))
+                                     :polarity -
+                                     :ARG0 (c8 / you))
+                           :ARG1 (c13 / mean-01~e.26
+                                      :polarity~e.25,31 -~e.25
+                                      :ARG1 w~e.16,17,18,19,20,21,22,23
+                                      :ARG2 (c16 / oppose-01~e.29
+                                                 :ARG1 c12
+                                                 :ARG0 y~e.27))
+                           :mod (c18 / just~e.14)))
+    :polarity~e.6 -~e.6
+    :ARG1-of (c19 / cause-01~e.0
+                  :ARG0~e.0 (c20 / amr-unknown~e.0))
+    :degree (c21 / percentage-entity~e.5
+                 :value 100~e.4
+                 :mod (c23 / literal~e.3)))
+
+# ::id DF-170-181103-888_2529.10 ::save-date 07/01/2022 23:01:24 ::annotator LDC-AMR-14
+# ::snt I 'm in favor of feeding , clothing , and giving shelter to the poor . I 'm against all the gov't institutions that tax our brains out and who inefficiently attempt to provide some of these things .
+# ::align a26/13
+(c0 / multi-sentence
+    :snt1 (c1 / favor-01~e.3
+              :ARG1~e.4 (c3 / and~e.9
+                            :op1 (c4 / feed-01~e.5
+                                     :ARG2~e.12 (c5 / poor~e.14
+                                                    :def +))
+                            :op2 (c6 / clothe-01~e.7
+                                     :ARG1 c5)
+                            :op3 (c7 / shelter-01~e.10,11
+                                     :ARG2 c5))
+              :ARG0 (c2 / i~e.0))
+    :snt2 (c8 / oppose-01~e.18
+              :ARG0 (c9 / i~e.16)
+              :content (c10 / institution.pl~e.22
+                         :def +
+                         :part-of (c11 / government-organization~e.21
+                                       :ARG0-of~e.21 (c12 / govern-01~e.21))
+                         :ARG0-of (c13 / tax-03~e.24
+                                       :ARG1 (c14 / brain.pl~e.26
+                                                  :poss~e.25 (c15 / we~e.25))
+                                       :ARG2 (c16 / out~e.27))
+                         :ARG0-of (c17 / attempt-01~e.31
+                                       :content (c18 / provide-01~e.33
+                                                     :ARG0 c10
+                                                     :ARG1 (c19 / some~e.34
+                                                                :ARG1-of (c20 / include-91
+                                                                              :ARG2 (c21 / thing.pl~e.37
+                                                                                         :mod (c22 / this~e.36)))))
+                                       :ARG2-of (c23 / efficient-01~e.30
+                                                     :polarity~e.30 -~e.30
+                                                     :ARG1 c10))
+                         :quant all~e.19)))
+
+# ::id DF-170-181103-888_3028.4 ::save-date 07/01/2022 23:03:05 ::annotator LDC-AMR-14
+# ::snt I do n't think Standtorum will tank , its going to be a close one till the very end , I am still rooting for a Romney @/@ McDonnell ticket .
+# ::align a28/12 a29/25
+(c0 / and
+    :op2 (c9 / one~e.14
+             :def -
+             :ARG1-of (c10 / close-12~e.13
+                           :time (c11 / till~e.15
+                                      :op1 (c12 / end-01~e.18
+                                                :def +
+                                                :degree (c13 / very~e.17))))
+             :domain~e.11 (c14 / it~e.8))
+    :op3 (c15 / root-03~e.23
+              :ARG1~e.24 (c17 / ticket~e.29
+                              :def -
+                              :mod (c18 / slash~e.27
+                                        :op1 (c19 / person
+                                                  :wiki "Mitt_Romney"
+                                                  :name (c21 / name
+                                                             :op1 "Romney"~e.26))
+                                        :op2 (c23 / person
+                                                  :wiki "Bob_McDonnell"
+                                                  :name (c25 / name
+                                                             :op1 "McDonnell"~e.28))))
+              :ARG0 i~e.20
+              :time (c27 / still~e.22))
+    :op1 (c1 / think-01~e.3
+             :polarity~e.2 -~e.2
+             :ARG0 (c3 / i~e.0)
+             :content (c4 / tank-01~e.6
+                          :ARG0 (c5 / person
+                                    :wiki "Rick_Santorum"
+                                    :name (c7 / name
+                                              :op1 "Standtorum"~e.4)))))
+
+# ::id DF-170-181103-888_3333.5 ::save-date 07/01/2022 23:05:06 ::annotator LDC-AMR-14
+# ::snt Maybe because it would look bad for the guy who promises to pay their mortgages , put gas in their tanks , gave them free cell phones and increased the welfare rolls .
+(c0 / cause-01~e.1
+    :ARG1 (c1 / look-02~e.4
+              :ARG1 (c2 / bad-04~e.5
+                        :ARG2~e.6 (c3 / guy~e.8
+                                      :def +
+                                      :ARG0-of (c4 / promise-01~e.10
+                                                   :content (c5 / and~e.27
+                                                             :op1 (c6 / pay-01~e.12
+                                                                      :ARG0 c3
+                                                                      :ARG2 (c7 / mortgage.pl~e.14
+                                                                                :poss~e.13 t~e.13)
+                                                                      :ARG3 (c9 / they))
+                                                             :op2 (c10 / put-01~e.16
+                                                                       :ARG0 c3
+                                                                       :ARG1 (c11 / gas~e.17)
+                                                                       :ARG2~e.18 (c12 / tank.pl~e.20
+                                                                                       :poss~e.19 t~e.19))))
+                                      :ARG0-of (c14 / give-01~e.22
+                                                    :ARG1 (c15 / phone.pl~e.26
+                                                               :mod (c16 / cell~e.25)
+                                                               :ARG1-of (c17 / free-03~e.24))
+                                                    :ARG2 t~e.23)
+                                      :ARG0-of (c19 / increase-01~e.28
+                                                    :ARG1 (c20 / roll.pl~e.31
+                                                               :def +
+                                                               :mod (c21 / welfare~e.30))))))
+    :content-of (c22 / possible-01~e.0))
+
+# ::id DF-170-181103-888_3574.5 ::save-date 07/01/2022 23:06:14 ::annotator LDC-AMR-14
+# ::snt It will make him a big shot with the GOP in 2012 but by 2016 if he were to run for president " Christie vetoed gay marriage " will be a millstone around his neck .
+# ::align a27/4 a28/30
+(c0 / contrast-01~e.12
+    :ARG1 (c1 / make-01~e.2
+              :ARG1 (c3 / shot~e.6
+                        :def -
+                        :mod (c4 / big~e.5)
+                        :accompanier~e.7 (c5 / political-party
+                                             :wiki "Republican_Party_(United_States)"
+                                             :name (c7 / name
+                                                       :op1 "GOP"~e.9)))
+              :ARG0 (c2 / it~e.0)
+              :ARG2 (c9 / person
+                        :wiki "Chris_Christie"
+                        :name (c11 / name
+                                   :op1 "Christie"~e.23))
+              :time~e.10 (c13 / date-entity
+                              :year 2012~e.11))
+    :ARG2 (c15 / millstone~e.31
+               :def -
+               :location (c16 / around~e.32
+                              :op1 (c17 / neck~e.34
+                                        :part-of (c18 / he~e.3,16,33)))
+               :domain~e.17,29 (c19 / veto-01~e.24
+                                    :ARG0 c9
+                                    :ARG1 (c20 / marry-01~e.26
+                                               :mod (c21 / gay-01~e.25)))
+               :condition-of~e.15 (c22 / run-02~e.19
+                                       :ARG0 c9
+                                       :ARG1~e.20 (c23 / president~e.21))
+               :time (c24 / by~e.13
+                          :op1 (c25 / date-entity
+                                    :year 2016~e.14))))
+
+# ::id DF-170-181104-872_5430.6 ::save-date 07/01/2022 23:07:15 ::annotator LDC-AMR-14
+# ::snt If you force them to accept pre @-@ existing conditions and accept other insured 's currently not eligible because they cost too much , who is going to pay for that extra risk ?
+(c0 / pay-01~e.28
+    :ARG0 (c1 / amr-unknown~e.24,33)
+    :ARG3 (c2 / risk-01~e.32
+              :mod (c3 / extra~e.31))
+    :condition~e.0 (c4 / force-01~e.2
+                       :ARG0 (c5 / you~e.1)
+                       :ARG1 (c6 / they~e.3,19)
+                       :ARG2~e.4 (c7 / and~e.10
+                                     :op1 (c8 / accept-01~e.5,11
+                                              :ARG1 (c9 / condition.pl~e.9
+                                                        :ARG1-of (c10 / preexist-01~e.6,7,8)))
+                                     :op2 (c11 / accept-01~e.11
+                                               :ARG1 (c12 / person.pl~e.17
+                                                          :ARG1-of~e.14 (c13 / insure-02~e.13)
+                                                          :mod (c14 / other~e.12)
+                                                          :ARG1-of~e.17 (c15 / qualify-02~e.17
+                                                                             :polarity~e.16 -~e.16
+                                                                             :time (c17 / current~e.15)
+                                                                             :ARG1-of (c18 / cause-01~e.18,27
+                                                                                           :ARG0 (c19 / cost-01~e.20
+                                                                                                      :ARG1 c12
+                                                                                                      :ARG2 (c20 / much~e.22
+                                                                                                                 :ARG2-of (c21 / have-quant-91
+                                                                                                                               :ARG1 c19
+                                                                                                                               :ARG3 (c22 / too~e.21)))))))))))
+
+# ::id ENG_DF_000170_20050903_C00020J0V_0001.31 ::save-date 07/01/2022 23:10:13 ::annotator SDL-AMR-09
+# ::snt Goodwill Industries is expecting to donate massive amounts of clothing and other items , so if you are in Austin and were planning to donate stuff , now is a good time to do it .
+(c0 / expect-01~e.3
+    :ARG0 (c1 / organization
+              :wiki "Goodwill_Industries"
+              :name (c3 / name
+                        :op1 "Goodwill"~e.0
+                        :op2 "Industries"~e.1))
+    :content (c6 / donate-01~e.5
+                 :ARG1 (c7 / amount.pl~e.7
+                           :quant-of~e.8 (c8 / clothe-01~e.9)
+                           :quant-of (c9 / item.pl~e.12
+                                         :mod (c10 / other~e.11))
+                           :mod (c11 / massive~e.6)))
+    :ARG1-of (c12 / cause-01~e.4,14,32
+                  :ARG0 (c13 / have-condition-91~e.15
+                             :ARG1 (c14 / now~e.27
+                                        :time-of~e.31 d2~e.34
+                                        :ARG1-of (c16 / good-07~e.30))
+                             :ARG2 (c17 / and
+                                        :op1 (c18 / be-located-at-91~e.17,21
+                                                  :ARG1 (c19 / you~e.16)
+                                                  :ARG2 (c20 / city
+                                                             :wiki "Austin,_Texas"
+                                                             :name (c22 / name
+                                                                        :op1 "Austin"~e.19)))
+                                        :op2 (c24 / plan-01~e.22
+                                                  :ARG0 c19
+                                                  :content (c25 / donate-01~e.24
+                                                             :ARG0 c19
+                                                             :ARG1 (c26 / stuff~e.25)))))))
+
+# ::id ENG_DF_000170_20050903_C00020J0V_0001.44 ::save-date 07/01/2022 23:10:30 ::annotator SDL-AMR-09
+# ::snt Mail to or drop off : FIRST BAPTIST CHURCH OF OAK HILL NEW MOM RELIEF SUPPLIES 6907 Convict Hill RD Austin TX 78749 Call Ann Bennett at 301 @-@ 8203 for more info .
+(c0 / and
+    :op1 (c1 / mail~e.0
+             :location-of (c2 / drop-off-03~e.3,4
+                              :ARG1 (c3 / supply-01.pl~e.15
+                                        :ARG1 (c4 / relieve-01~e.14
+                                                  :ARG1 (c5 / person
+                                                            :ARG0-of (c6 / have-rel-role-91
+                                                                         :ARG2 (c7 / mom~e.13)))))
+                              :ARG2 (c8 / church
+                                        :wiki -
+                                        :name (c10 / name
+                                                   :op1 "First"~e.6
+                                                   :op2 "Baptist"~e.7
+                                                   :op3 "Church"~e.8)
+                                        :location (c14 / street-address-91
+                                                       :ARG1 6907~e.16
+                                                       :ARG6 78749~e.22
+                                                       :ARG2 (c17 / road
+                                                                  :wiki -
+                                                                  :name (c19 / name
+                                                                             :op1 "Convict"~e.17
+                                                                             :op2 "Hill"~e.18
+                                                                             :op3 "RD"~e.19))
+                                                       :ARG4 (c23 / city
+                                                                  :wiki "Austin,_Texas"
+                                                                  :name (c25 / name
+                                                                             :op1 "Austin"~e.20))
+                                                       :ARG5 (c27 / state
+                                                                  :wiki "Texas"
+                                                                  :name (c29 / name
+                                                                             :op1 "Texas"~e.21)))
+                                        :location (c31 / city
+                                                       :wiki "Oak_Hill,_Austin,_Texas"
+                                                       :name (c33 / name
+                                                                  :op1 "Oak"~e.10
+                                                                  :op2 "Hill"~e.11)))))
+    :op2 (c36 / call-02~e.23
+              :ARG0 (c37 / you)
+              :ARG1 (c38 / person
+                         :wiki -
+                         :name (c40 / name
+                                    :op1 "Ann"~e.24
+                                    :op2 "Bennett"~e.25))
+              :mod~e.26 (c43 / phone-number-entity
+                             :value "301-8203"~e.27,29)
+              :purpose~e.30 (c45 / information~e.32
+                                 :quant (c46 / more~e.31))))
+
+# ::id ENG_DF_000170_20050903_C00020J0V_0001.48 ::save-date 07/01/2022 23:12:16 ::annotator SDL-AMR-09
+# ::snt The JCAA will distribute these goods when more information is made available on which organizations will be accepting goods and what the local needs will be , as well as the regional needs .
+# ::align a24/21 a23/30
+(c0 / distribute-01~e.3
+    :time~e.6 (c10 / available-02~e.11
+                   :ARG2 (c11 / information~e.8
+                              :topic (c13 / and~e.19,27,28,29
+                                          :op2 (c17 / thing.pl~e.20
+                                                    :content-of (c18 / need-01~e.23
+                                                                  :def +
+                                                                  :ARG1-of (c19 / local-02~e.22)))
+                                          :op3 (c20 / thing.pl~e.20
+                                                    :content-of~e.29 (c21 / content-01~e.32
+                                                                       :def +
+                                                                       :ARG0 (c22 / region~e.31)))
+                                          :op1 (c14 / organization.pl~e.14
+                                                    :ARG0-of (c15 / accept-01~e.17
+                                                                  :ARG1 g~e.18)))
+                              :quant (c12 / more~e.7)))
+    :ARG0 (c1 / organization
+              :wiki "National_Junior_College_Athletic_Association"
+              :name (c3 / name
+                        :op1 "Junior"
+                        :op2 "College"
+                        :op3 "Athletic"
+                        :op4 "Association"))
+    :ARG1 (c8 / good.pl~e.5
+              :mod (c9 / this~e.4)))
+
+# ::id ENG_DF_000170_20050903_C00020J0V_0001.54 ::save-date 07/01/2022 23:17:15 ::annotator SDL-AMR-09
+# ::snt AAIM - Austin Area Interreligious Ministries - is asking that clergy , religious leaders and members of Austin 's faith community come together at First Baptist Church on Thursday , September 15 th , 2005 .
+(c0 / ask-02~e.8
+    :ARG0 (c1 / organization
+              :wiki -
+              :name (c3 / name
+                        :op1 "Austin"~e.2
+                        :op2 "Area"~e.3
+                        :op3 "Interreligious"~e.4
+                        :op4 "Ministry"~e.5))
+    :content~e.9 (c8 / come-01~e.21
+                     :ARG1 (c9 / and~e.14
+                               :op1 (c10 / clergy~e.10)
+                               :op2 (c11 / person.pl~e.13
+                                         :ARG0-of~e.13 (c12 / lead-02~e.13))
+                               :op3 (c13 / member.pl~e.15
+                                         :part-of~e.16 (c14 / community~e.20
+                                                            :mod (c15 / faith~e.19
+                                                                      :mod~e.18 (c16 / city
+                                                                                     :wiki "Austin,_Texas"
+                                                                                     :name (c18 / name
+                                                                                                :op1 "Austin"~e.17))))))
+                     :ARG4 (c20 / church
+                                :wiki -
+                                :name (c22 / name
+                                           :op1 "First"~e.24
+                                           :op2 "Baptist"~e.25
+                                           :op3 "Church"~e.26))
+                     :mod (c26 / together~e.22)
+                     :time~e.27 (c27 / date-entity
+                                     :day 15~e.31
+                                     :month~e.30 9~e.30
+                                     :year 2005~e.34
+                                     :weekday (c31 / thursday~e.28))))
+
+# ::id ENG_DF_000170_20100514_C000209GX_0001.6 ::save-date 07/01/2022 23:17:16 ::annotator SDL-AMR-09
+# ::snt Not much help is getting here and now everyone is bonding together .... saying " Fuck you Mr. President ... we do n't need your GD help ! ! ! "
+# ::align a22/8
+(c0 / and~e.6
+    :op2 (c6 / bond-01~e.10
+             :ARG0 (c7 / person~e.8
+                       :quant every
+                       :ARG0-of (c8 / say-01~e.13
+                                    :content (c9 / and
+                                                 :op1 (c10 / fuck-01~e.15
+                                                           :mode~e.15,27,28,29 expressive~e.15
+                                                           :ARG0 (c12 / we~e.20)
+                                                           :ARG1 (c13 / person
+                                                                      :ARG0-of (c14 / have-org-role-91
+                                                                                    :ARG2 (c15 / president~e.18))))
+                                                 :op2 (c16 / need-01~e.23
+                                                           :ARG0 c12
+                                                           :content (c17 / help-01~e.26
+                                                                      :ARG0 c13
+                                                                      :ARG1-of (c18 / damn-01
+                                                                                    :ARG0 (c19 / god)))))))
+             :mod (c20 / together~e.11)
+             :time (c21 / now~e.7))
+    :op1 (c1 / get-05~e.4
+             :ARG0 (c2 / help-01~e.2
+                       :quant (c3 / much~e.1
+                                  :polarity~e.0,22 -~e.0))
+             :ARG2 (c5 / here~e.5)))
+
+# ::id ENG_DF_000170_20100514_C000209GX_0001.16 ::save-date 07/01/2022 23:17:18 ::annotator SDL-AMR-09
+# ::snt I had one adjuster call me yesterday , at the point of tears because he had to tell one of our customers , who just lost her husband in February , that she did n't have any coverage .
+# ::align a26/9
+(c0 / call-02~e.4
+    :manner (c5 / point~e.10
+                :def +
+                :degree-of (c6 / cry-01
+                               :ARG0 c1
+                               :ARG1-of (c7 / cause-01~e.13
+                                            :ARG0 (c8 / obligate-01~e.1,15,16
+                                                      :ARG1 c1
+                                                      :content (c9 / tell-01~e.17
+                                                                :ARG0 c1
+                                                                :content (c10 / have-03~e.35
+                                                                              :polarity~e.34 -~e.34
+                                                                              :ARG0 c4~e.18,19,20,21,22,23,24,25,26,27,28,29
+                                                                              :ARG1 (c13 / cover-01~e.37
+                                                                                         :mod (c14 / any~e.36)))
+                                                                :ARG2 (c15 / customer.pl
+                                                                           :quant 1~e.2
+                                                                           :poss (c17 / we)
+                                                                           :ARG1-of (c18 / include-91
+                                                                                         :ARG2 (c19 / customer.pl
+                                                                                                    :poss c17))
+                                                                           :ARG0-of (c20 / lose-02
+                                                                                         :ARG1 (c21 / person
+                                                                                                    :ARG0-of (c22 / have-rel-role-91
+                                                                                                                  :ARG1 c15
+                                                                                                                  :ARG2 (c23 / husband)))
+                                                                                         :time (c24 / date-entity
+                                                                                                    :month 2))))))))
+    :ARG0 (c1 / person
+              :ARG0-of (c2 / adjust-01))
+    :ARG1 (c3 / i~e.0,5)
+    :time (c4 / yesterday~e.6))
+
+# ::id ENG_DF_000170_20100514_C000209GX_0001.21 ::save-date 07/01/2022 23:19:47 ::annotator SDL-AMR-09
+# ::snt I know that I am so tired , but I can not imagine how tired and exhausted the people that have lost their homes , cars , loved ones are .
+(c0 / contrast-01~e.8
+    :ARG1 (c1 / know-01~e.1
+              :ARG0 i~e.0
+              :content~e.2 (c3 / tire-01~e.6,14
+                            :ARG1 (c4 / i~e.3,9)
+                            :mod (c5 / so~e.5,13)))
+    :ARG2 (c6 / possible-01~e.10
+              :polarity~e.11 -~e.11
+              :content (c8 / imagine-01~e.12
+                        :ARG0 c4
+                        :ARG1 (c9 / thing
+                                  :degree-of (c10 / tire-01~e.14
+                                                  :ARG1 (c11 / person.pl~e.18
+                                                             :ARG0-of (c12 / lose-02~e.21
+                                                                           :ARG1 (c13 / and
+                                                                                      :op1 (c14 / home.pl~e.23
+                                                                                                :poss~e.22 p2~e.22)
+                                                                                      :op2 (c16 / car.pl~e.25
+                                                                                                :poss c11)
+                                                                                      :op3 (c17 / person.pl~e.18
+                                                                                                :ARG1-of (c18 / love-01~e.27
+                                                                                                              :ARG0 c11))))))
+                                  :degree-of (c19 / exhaust-01~e.16
+                                                  :ARG1 c11)))))
+
+# ::id ENG_DF_000170_20100514_C000209GX_0001.89 ::save-date 07/01/2022 23:21:46 ::annotator SDL-AMR-09
+# ::snt Of course the reaction was basically the same and people here helped one another just as they have done in the 27 counties in TN that were affected by the flood .
+# ::align a20/2 a21/29
+(c0 / and~e.8
+    :op1 (c1 / same-01~e.7
+             :def +
+             :ARG1 (c2 / react-01~e.3
+                       :def +)
+             :mod (c3 / of-course~e.0,1)
+             :mod (c4 / basic~e.5))
+    :op2 (c5 / help-01~e.11
+             :ARG1-of (c9 / resemble-01
+                          :ARG2 (c10 / help-01~e.11
+                                     :location~e.19 (c12 / county.pl~e.22
+                                                         :def +
+                                                         :ARG1-of (c18 / affect-01~e.27
+                                                                       :ARG0~e.28 (c19 / flood-01~e.30
+                                                                                       :def +))
+                                                         :quant 27~e.21
+                                                         :part-of (c14 / state
+                                                                       :wiki "Tennessee"
+                                                                       :name (c16 / name
+                                                                                  :op1 "Tennessee")))
+                                     :ARG0~e.15 (c11 / they~e.16)))
+             :ARG0 (c6 / person.pl~e.9
+                       :location (c7 / here~e.10))
+             :ARG1 (c8 / another~e.13)))
+
+# ::id nw.wsj_0003.1 ::save-date 07/01/2022 23:25:44 ::annotator ISI-AMR-01
+# ::snt A form of asbestos once used to make Kent cigarette filters has caused a high percentage of cancer deaths among a group of workers exposed to it more than 30 years ago , researchers reported .
+# ::align a35/0 a36/13 a37/20
+(c0 / report-01~e.34
+    :content (c3 / cause-01~e.12
+                 :ARG0 (c4 / asbestos~e.3
+                           :mod~e.2 (c5 / form~e.1
+                                        :def -)
+                           :ARG1-of (c6 / use-01~e.5,7
+                                        :ARG2~e.7 (c7 / make-01~e.7
+                                                      :ARG1 (c8 / product.pl~e.10
+                                                                :ARG0-of~e.10 (c9 / filter-02~e.10)
+                                                                :mod (c10 / cigarette~e.9
+                                                                          :wiki "Kent_(cigarette)"
+                                                                          :name (c12 / name
+                                                                                     :op1 "Kent"~e.8))))
+                                        :time~e.4 (c14 / once~e.4)))
+                 :ARG1 (c15 / percentage~e.15
+                            :def -
+                            :ARG3-of (c16 / include-91~e.19
+                                          :ARG2 (c24 / person.pl~e.23
+                                                     :def -
+                                                     :ARG0-of~e.23 (c25 / work-01~e.23)
+                                                     :ARG1-of (c26 / expose-01~e.24
+                                                                   :ARG2~e.25 a2~e.26
+                                                                   :time (c28 / before~e.31
+                                                                              :op1~e.31 (c29 / now~e.31)
+                                                                              :quant (c30 / more-than~e.27,28
+                                                                                          :op1 (c31 / temporal-quantity
+                                                                                                    :quant 30~e.29
+                                                                                                    :unit (c33 / year~e.30))))))
+                                          :ARG1 (c17 / person.pl~e.18
+                                                     :ARG1-of~e.18 (c18 / die-01.pl~e.18
+                                                                        :ARG1-of (c19 / cause-01~e.12
+                                                                                      :ARG0~e.16 (c20 / disease
+                                                                                                      :wiki "Cancer"
+                                                                                                      :name (c22 / name
+                                                                                                                 :op1 "cancer"~e.17))))))
+                            :ARG1-of (c34 / high-02~e.14)))
+    :ARG0 (c1 / person.pl~e.33
+              :ARG0-of~e.33 (c2 / research-01~e.33)))
+
+# ::id nw.wsj_0003.2 ::save-date 07/01/2022 23:27:33 ::annotator ISI-AMR-01
+# ::snt The asbestos fiber , crocidolite , is unusually resilient once it enters the lungs , with even brief exposures to it causing symptoms that show up decades later , researchers said .
+# ::align a25/0
+(c0 / say-01~e.30
+    :content (c3 / and
+                 :op1~e.27 (c4 / resilient~e.8
+                               :domain~e.6 (c7 / crocidolite~e.4
+                                               :mod (c8 / fiber~e.2
+                                                        :def +
+                                                        :mod (c9 / asbestos~e.1)))
+                               :mod (c5 / usual~e.7
+                                        :polarity~e.7 -~e.7)
+                               :time~e.9 (c10 / enter-01~e.11
+                                              :ARG0 c~e.10
+                                              :ARG1 (c12 / lung.pl~e.13
+                                                         :def +)))
+                 :op2 (c13 / cause-01~e.19,21
+                           :ARG0 (c14 / expose-01.pl~e.18
+                                      :ARG2~e.19 c~e.20
+                                      :duration (c16 / brief~e.17
+                                                     :mod (c17 / even~e.16)))
+                           :ARG1 (c18 / symptom.pl~e.22
+                                      :ARG1-of (c19 / show-up-02~e.24,25
+                                                    :time (c20 / after~e.27
+                                                               :op1~e.27 c14
+                                                               :quant (c21 / multiple~e.26
+                                                                           :op1~e.26,27 (c22 / temporal-quantity~e.26
+                                                                                             :quant~e.26 1~e.9,26
+                                                                                             :unit~e.26 (c24 / decade~e.26))))))))
+    :ARG0 (c1 / person.pl~e.29
+              :ARG0-of~e.29 (c2 / research-01~e.29)))
+
+# ::id nw.wsj_0003.4 ::save-date 07/01/2022 23:28:52 ::annotator ISI-AMR-01
+# ::snt Although preliminary findings were reported more than a year ago , the latest results appear in today 's New England Journal of Medicine , a forum likely to bring new attention to the problem .
+# ::align a31/11 a32/24
+(c0 / appear-01~e.14
+    :ARG1 (c1 / thing.pl~e.13
+              :def +
+              :ARG2-of~e.12,13 (c2 / result-01~e.13
+                                   :mod (c3 / last~e.12)))
+    :location~e.15 (c4 / journal
+                       :mod (c13 / forum~e.25
+                                 :def -
+                                 :ARG0-of (c14 / bring-01~e.28
+                                               :ARG1 (c15 / attend-02~e.30
+                                                          :ARG1 c19
+                                                          :ARG1-of (c17 / new-02~e.29
+                                                                        :ARG2 c19))
+                                               :ARG2~e.31 (c19 / problem~e.33
+                                                               :def +)
+                                               :content-of (c20 / likely-01~e.26)))
+                       :wiki "The_New_England_Journal_of_Medicine"
+                       :name (c6 / name
+                                 :op1 "New"~e.18
+                                 :op2 "England"~e.19
+                                 :op3 "Journal"~e.20
+                                 :op4 "of"~e.21
+                                 :op5 "Medicine"~e.22)
+                       :time~e.17 (c12 / today~e.16))
+    :concession~e.0 (c21 / report-01~e.4
+                         :ARG1 (c22 / thing.pl~e.2
+                                    :ARG1-of~e.2 (c23 / find-01~e.2)
+                                    :mod (c24 / preliminary~e.1))
+                         :time (c25 / before~e.9
+                                    :op1~e.9 (c26 / now~e.9)
+                                    :quant (c27 / more-than~e.5,6
+                                                :op1 (c28 / temporal-quantity
+                                                          :quant 1~e.7
+                                                          :unit (c30 / year~e.8))))))
+
+# ::id nw.wsj_0003.11 ::save-date 07/01/2022 23:30:27 ::annotator ISI-AMR-01
+# ::snt The Lorillard spokeswoman said asbestos was used in `` very modest amounts '' in making paper for the filters in the early 1950 s and replaced with a different type of filter in 1956 .
+# ::align a28/0 a29/17 a30/27
+(c0 / say-01~e.3
+    :ARG0 (c1 / person
+              :def +
+              :ARG0-of (c2 / have-org-role-91
+                           :ARG1 (c3 / company
+                                     :wiki "Lorillard_Tobacco_Company"
+                                     :name (c5 / name
+                                               :op1 "Lorillard"~e.1))
+                           :ARG2 (c7 / spokeswoman~e.2)))
+    :content (c8 / and~e.24
+                 :op1 (c9 / use-01~e.6,14
+                          :ARG2~e.14 (c14 / make-01~e.14
+                                          :purpose~e.16 (c19 / product.pl~e.18
+                                                             :def +
+                                                             :ARG0-of~e.18 (c20 / filter-02~e.18))
+                                          :ARG1 (c15 / paper~e.15)
+                                          :time~e.19 (c16 / early~e.21
+                                                          :op1 (c17 / date-entity
+                                                                    :decade~e.23 1950~e.22)))
+                          :ARG1 (c10 / asbestos~e.4
+                                     :quant (c11 / amount.pl~e.11
+                                                 :mod (c12 / modest~e.10
+                                                           :degree (c13 / very~e.9)))))
+                 :op2 (c21 / replace-01~e.25
+                           :ARG2~e.26 (c22 / product~e.31
+                                           :ARG0-of~e.31 (c23 / filter-02~e.31
+                                                              :mod~e.30 (c24 / type~e.29
+                                                                             :def -
+                                                                             :ARG1-of (c25 / differ-02~e.28))))
+                           :ARG1 c10
+                           :time~e.32 (c26 / date-entity
+                                           :year 1956~e.33))))
+
+# ::id nw.wsj_0003.17 ::save-date 07/01/2022 23:33:05 ::annotator ISI-AMR-01
+# ::snt The percentage of lung cancer deaths among the workers at the West Groton , Mass. , paper factory appears to be the highest for any asbestos workers studied in Western industrialized countries , he said .
+# ::align a40/0 a41/7 a42/21
+(c0 / say-01~e.34
+    :content (c2 / appear-02~e.18
+                 :content (c3 / have-degree-91~e.22
+                           :ARG1 (c4 / percentage~e.1
+                                     :def +
+                                     :quant-of~e.2 (c5 / person.pl~e.5
+                                                       :ARG1-of (c13 / include-91~e.6
+                                                                     :ARG2~e.22 (c14 / person.pl~e.8
+                                                                                     :def +
+                                                                                     :ARG0-of~e.8 (c15 / work-01~e.8
+                                                                                                       :location~e.9 (c16 / factory~e.17
+                                                                                                                          :mod (c17 / paper~e.16)
+                                                                                                                          :location (c18 / city
+                                                                                                                                         :wiki -
+                                                                                                                                         :name (c20 / name
+                                                                                                                                                    :op1 "West"~e.11
+                                                                                                                                                    :op2 "Groton"~e.12)
+                                                                                                                                         :location (c23 / state
+                                                                                                                                                        :wiki "Massachusetts"
+                                                                                                                                                        :name (c25 / name
+                                                                                                                                                                   :op1 "Massachusetts"~e.14)))))))
+                                                       :ARG1-of~e.5 (c6 / die-01.pl~e.5
+                                                                        :ARG1-of (c7 / cause-01
+                                                                                     :ARG0 (c8 / disease
+                                                                                               :wiki "Lung_cancer"
+                                                                                               :name (c10 / name
+                                                                                                          :op1 "lung"~e.3
+                                                                                                          :op2 "cancer"~e.4))))))
+                           :ARG2~e.22 (c27 / high-02~e.22
+                                           :def +)
+                           :ARG3~e.22 (c28 / most~e.22)
+                           :ARG5 (c29 / person.pl~e.26
+                                      :ARG0-of~e.26 (c30 / work-01~e.26
+                                                         :ARG1 (c31 / asbestos~e.25))
+                                      :ARG1-of (c32 / study-01~e.27)
+                                      :location~e.28 (c33 / country.pl~e.31
+                                                          :ARG1-of (c34 / industrialize-01~e.30)
+                                                          :location (c35 / world-region
+                                                                         :wiki "Western_world"
+                                                                         :name (c37 / name
+                                                                                    :op1 "West"~e.29)))
+                                      :mod (c39 / any~e.24))))
+    :ARG0 (c1 / he~e.33))
+
+# ::id nw.wsj_0003.26 ::save-date 07/01/2022 23:35:18 ::annotator ISI-AMR-01
+# ::snt Workers dumped large burlap sacks of the imported material into a huge bin , poured in cotton and acetate fibers and mechanically mixed the dry fibers in a process used to make filters .
+# ::align a27/6 a28/10 a29/23 a30/27
+(c0 / and~e.20
+    :op1 (c1 / dump-01~e.1
+             :ARG1 (c4 / material~e.8
+                       :def +
+                       :ARG1-of (c5 / import-01~e.7)
+                       :quant~e.5 (c6 / sack.pl~e.4
+                                      :consist-of (c7 / burlap~e.3)
+                                      :mod (c8 / large~e.2)))
+             :destination~e.9 (c9 / bin~e.12
+                                  :def -
+                                  :mod (c10 / huge~e.11))
+             :ARG0 (c2 / person.pl~e.0
+                       :ARG0-of~e.0 (c3 / work-01~e.0)))
+    :op3 (c17 / mix-01~e.22
+              :ARG1 (c18 / fiber.pl~e.25
+                         :def +
+                         :ARG1-of (c19 / dry-08~e.24))
+              :ARG0 c2
+              :manner~e.21 (c20 / mechanical~e.21))
+    :prep-in~e.15,26 (c21 / process-02~e.28
+                          :def -
+                          :ARG1 c24
+                          :ARG1-of (c23 / use-01~e.29,31
+                                        :ARG2~e.31 (c24 / make-01~e.31
+                                                        :ARG1 (c25 / product.pl~e.32
+                                                                   :ARG0-of~e.32 (c26 / filter-02~e.32)))))
+    :op2 (c11 / pour-01~e.14
+              :ARG3 c9
+              :ARG0 c2
+              :ARG1 (c12 / and~e.17,20
+                         :op1 (c13 / fiber.pl~e.19
+                                   :mod (c14 / cotton~e.16))
+                         :op2 (c15 / fiber.pl~e.19
+                                   :mod (c16 / acetate~e.18)))))
+
+# ::id nw.wsj_0003.28 ::save-date 07/01/2022 23:37:08 ::annotator ISI-AMR-01
+# ::snt `` There 's no question that some of those workers and managers contracted asbestos - related diseases , '' said Darrell Phillips , vice president of human resources for Hollingsworth & Vose .
+(c0 / say-01~e.19
+    :ARG0 (c1 / person
+              :wiki -
+              :name (c3 / name
+                        :op1 "Darrell"~e.20
+                        :op2 "Phillips"~e.21)
+              :ARG0-of (c6 / have-org-role-91~e.28
+                           :ARG1 (c7 / company
+                                     :wiki -
+                                     :name (c9 / name
+                                               :op1 "Hollingsworth"~e.29
+                                               :op2 "&"~e.30
+                                               :op3 "Vose"~e.31))
+                           :ARG2 (c13 / president~e.24
+                                      :mod (c14 / vice~e.23)
+                                      :topic~e.25 (c15 / resource~e.27
+                                                       :mod (c16 / human~e.26)))))
+    :content (c17 / question-03~e.4
+                  :polarity~e.3 -~e.3
+                  :ARG1 (c19 / contract-04~e.12
+                             :ARG1 (c20 / person.pl
+                                        :ARG1-of (c21 / include-91
+                                                      :ARG2 (c22 / and~e.10
+                                                                 :op1 (c23 / person.pl~e.9
+                                                                           :ARG0-of~e.9 (c24 / work-01~e.9))
+                                                                 :op2 (c25 / person.pl~e.11
+                                                                           :ARG0-of~e.11 (c26 / manage-01~e.11))
+                                                                 :mod (c27 / that~e.5,8))))
+                             :ARG2 (c28 / disease.pl~e.16
+                                        :ARG1-of (c29 / relate-01~e.15
+                                                      :ARG2 (c30 / asbestos~e.13))))))
+
+# ::id nw.wsj_0004.2 ::save-date 07/01/2022 23:39:00 ::annotator ISI-AMR-01
+# ::snt The average seven - day compound yield of the 400 taxable funds tracked by IBC 's Money Fund Report eased a fraction of a percentage point to 8.45 % from 8.47 % for the week ended Tuesday .
+# ::align a34/0 a35/8 a36/20 a37/23 a38/33
+(c0 / ease-01~e.19
+    :ARG1 (c1 / thing~e.6
+              :def +
+              :ARG1-of~e.6 (c2 / yield-03~e.6
+                               :ARG0~e.7 (c3 / fund.pl~e.11
+                                             :def +
+                                             :quant 400~e.9
+                                             :ARG2-of (c5 / tax-01~e.10
+                                                          :ARG2-of (c6 / obligate-01~e.26))
+                                             :ARG1-of (c7 / track-down-02~e.12
+                                                          :ARG0~e.13 (c8 / publication
+                                                                         :wiki -
+                                                                         :name (c10 / name
+                                                                                    :op1 "Money"~e.16
+                                                                                    :op2 "Fund"~e.17
+                                                                                    :op3 "Report"~e.18)
+                                                                         :poss~e.15 (c14 / organization
+                                                                                         :wiki "International_Bank_of_Commerce"
+                                                                                         :name (c16 / name
+                                                                                                    :op1 "IBC"~e.14)))))
+                               :mod (c18 / temporal-quantity
+                                         :quant 7~e.2
+                                         :unit (c20 / day~e.4))
+                               :mod (c21 / compound~e.5))
+              :ARG1-of (c22 / average-01~e.1))
+    :ARG2 (c23 / fraction~e.21
+               :def -
+               :op1 (c24 / percentage-entity~e.24
+                         :def -
+                         :value 1))
+    :time~e.32 (c30 / week~e.34
+                    :def +
+                    :ARG1-of (c31 / end-01~e.35
+                                  :time (c32 / date-entity
+                                             :weekday (c33 / tuesday~e.36))))
+    :ARG3~e.29 (c26 / percentage-entity~e.31
+                    :value 8.47~e.30)
+    :ARG4 (c28 / percentage-entity~e.24,28
+               :value 8.45~e.27))
+
+# ::id bolt12_07_4800.2 ::save-date 07/01/2022 23:42:43 ::annotator SDL-AMR-09
+# ::snt After its competitor invented the front loading washing machine , the CEO of the American IM company believed that each of its employees had the ability for innovation , and formulated strategic countermeasures for innovation in the industry .
+# ::align a38/4 a39/10 a40/13 a41/19 a42/24 a43/36
+(c0 / and~e.29
+    :time (c29 / after~e.0
+               :op1 (c30 / invent-01~e.3
+                         :ARG1 (c34 / machine~e.8
+                                    :def +
+                                    :ARG0-of (c35 / wash-01~e.7)
+                                    :ARG1-of (c36 / load-01~e.6
+                                                  :mod (c37 / front~e.5)))
+                         :ARG0 (c31 / company~e.16
+                                    :ARG0-of (c32 / compete-02~e.2
+                                                  :ARG1~e.1 c2~e.1))))
+    :op1 (c1 / believe-01~e.17
+             :ARG0 (c2 / person
+                       :ARG0-of (c3 / have-org-role-91~e.12
+                                    :ARG2 (c13 / officer~e.11
+                                               :def +
+                                               :mod~e.11 (c14 / executive~e.11)
+                                               :mod~e.11 (c15 / chief~e.11))
+                                    :ARG1 (c4 / company
+                                              :def +
+                                              :wiki -
+                                              :name (c6 / name
+                                                        :op1 "IM"~e.15)
+                                              :mod (c8 / country
+                                                       :wiki "United_States"
+                                                       :name (c10 / name
+                                                                  :op1 "United"~e.14
+                                                                  :op2 "States"~e.14)))))
+             :content~e.18 (c16 / capable-01~e.25
+                                :ARG1 (c17 / person.pl~e.22
+                                           :quant each
+                                           :ARG1-of~e.22 (c18 / employ-01~e.22
+                                                              :ARG0 c4))
+                                :def +
+                                :content~e.26 (c20 / innovate-01~e.27
+                                                :ARG0 c17)))
+    :op2 (c21 / formulate-01~e.30
+              :ARG1 (c25 / countermeasure.pl~e.32
+                         :purpose~e.33 (c27 / innovate-01~e.34
+                                            :topic~e.35 (c28 / industry~e.37
+                                                             :def +))
+                         :mod (c26 / strategy~e.31))
+              :ARG0 (c22 / officer~e.11
+                         :mod~e.11 (c23 / executive~e.11)
+                         :mod~e.11 (c24 / chief~e.11))))
+
+# ::id bolt12_10465_5552.1 ::save-date 07/01/2022 23:44:52 ::annotator SDL-AMR-09
+# ::snt Since the Tangshan Earthquake , the starting point for construction standards in the mainland is that under an earthquake of the same magnitude , buildings should preserve their basic frame without collapsing .
+# ::align a23/5 a25/12 a24/17 a26/20
+(c0 / point~e.7
+    :def +
+    :location~e.11 (c4 / mainland~e.13
+                       :def +)
+    :domain~e.14 (c5 / recommend-01~e.25
+                     :condition (c19 / earthquake~e.18
+                                     :def -
+                                     :mod~e.19 (c20 / magnitude~e.22
+                                                    :def +
+                                                    :ARG1-of (c21 / same-01~e.21
+                                                                  :ARG2 (c22 / magnitude~e.22
+                                                                             :poss c15))))
+                     :content (c6 / preserve-01~e.26
+                               :ARG0 (c7 / building.pl~e.24)
+                               :ARG1 (c8 / frame~e.29
+                                         :part-of (c9 / thing)
+                                         :mod (c10 / basic~e.28)
+                                         :poss~e.27 b~e.27)
+                               :manner (c12 / collapse-01~e.31
+                                            :polarity~e.30 -~e.30
+                                            :ARG1 c8))
+                     :time (c14 / since~e.0
+                                :op1 (c15 / earthquake~e.3
+                                          :def +
+                                          :wiki "1976_Tangshan_earthquake"
+                                          :name (c17 / name
+                                                     :op1 "Tangshan"~e.2))))
+    :mod (c1 / start-01~e.6
+             :ARG1~e.8 (c2 / standard.pl~e.10
+                           :mod (c3 / construct-01~e.9))))
+
+# ::id bolt12_10465_5552.2 ::save-date 07/01/2022 23:45:53 ::annotator SDL-AMR-09
+# ::snt However , most of the buildings in this hard @-@ hit area did not meet these requirements , with the widespread collapse of school buildings in particular arousing intense public disgust .
+# ::align a25/4 a26/19
+(c0 / contrast-01~e.0
+    :ARG2~e.18 (c1 / and
+                   :op1 (c2 / meet-01~e.14
+                            :ARG0 (c4 / building.pl~e.5
+                                      :def +
+                                      :quant~e.3 (c5 / most~e.2)
+                                      :ARG1-of (c6 / include-91
+                                                   :ARG2 (c7 / building~e.5
+                                                             :location~e.6 (c8 / area~e.11
+                                                                               :ARG1-of (c9 / hit-01~e.10
+                                                                                            :ARG1-of (c10 / hard-04~e.8))
+                                                                               :mod (c11 / this~e.7,15)))))
+                            :polarity~e.13 -~e.13
+                            :ARG1 (c12 / thing.pl~e.16
+                                       :ARG1-of~e.16 (c13 / require-01~e.16)
+                                       :mod (c14 / this~e.15)))
+                   :op2 (c15 / arouse-01~e.27
+                             :ARG0 (c16 / collapse-01~e.21
+                                        :def +
+                                        :ARG1~e.22 (c17 / building.pl~e.24
+                                                        :mod (c18 / school~e.23))
+                                        :ARG1-of (c19 / spread-02~e.20
+                                                      :ARG1-of~e.20 (c20 / wide-02~e.20)))
+                             :ARG1 (c21 / disgust-01~e.30
+                                        :ARG1 (c22 / public~e.29)
+                                        :ARG1-of (c23 / intense-02~e.28))
+                             :mod (c24 / particular~e.26))))
+
+# ::id bolt12_10465_5552.4 ::save-date 07/01/2022 23:47:15 ::annotator SDL-AMR-09
+# ::snt According to information leaked from numerous channels , we can say for certain that before the earthquake struck , the serious earthquake risk in the Ngawa region was already well known to the CCP .
+# ::align a26/15 a27/19 a28/24
+(c0 / say-01~e.0,1
+    :content (c5 / possible-01~e.9
+                 :ARG1 (c6 / say-01~e.10
+                           :ARG1~e.13 (c8 / know-02~e.30
+                                          :time (c20 / before~e.14
+                                                     :op1 (c21 / strike-01~e.17
+                                                               :ARG2 (c22 / earthquake~e.16
+                                                                          :def +)))
+                                          :ARG1 (c13 / risk-01~e.22
+                                                     :def +
+                                                     :location~e.23 (c16 / local-region~e.26
+                                                                         :def +
+                                                                         :wiki "Ngawa_Tibetan_and_Qiang_Autonomous_Prefecture"
+                                                                         :name (c18 / name
+                                                                                    :op1 "Ngawa"~e.25))
+                                                     :ARG2 (c14 / earthquake~e.21)
+                                                     :ARG1-of (c15 / serious-02~e.20))
+                                          :ARG0~e.31 (c9 / political-party
+                                                         :wiki "Communist_Party_of_China"
+                                                         :name (c11 / name
+                                                                    :op1 "CCP"~e.33))
+                                          :time (c23 / already~e.28)
+                                          :ARG1-of (c24 / well-09~e.29))
+                           :ARG0 (c7 / we~e.8)
+                           :manner~e.11 (c25 / certain~e.12)))
+    :ARG0 (c1 / information~e.2
+              :ARG1-of (c2 / leak-01~e.3
+                           :ARG0~e.4 (c3 / channel.pl~e.6
+                                         :quant (c4 / numerous~e.5)))))
+
+# ::id bolt12_10465_5552.6 ::save-date 07/01/2022 23:49:12 ::annotator SDL-AMR-09
+# ::snt In regions where the earthquake risk is high , warning the public and spreading disaster prevention awareness could greatly reduce casualties during earthquakes ; this is the very minimum duty that any responsible government should undertake .
+# ::align a27/3 a28/10 a29/26
+(c0 / multi-sentence
+    :snt1 (c1 / possible-01~e.17
+              :content (c2 / reduce-01~e.19
+                        :location~e.2 (c11 / region.pl~e.1
+                                           :location-of~e.2 (c12 / high-02~e.7
+                                                                 :ARG1 (c13 / risk-01~e.5
+                                                                            :def +
+                                                                            :ARG2 (c14 / earthquake~e.4))))
+                        :ARG0 (c3 / and~e.12
+                                  :op1 (c4 / warn-01~e.9
+                                           :ARG2 (c5 / public~e.11
+                                                     :def +))
+                                  :op2 (c6 / spread-03~e.13
+                                           :ARG1 (c7 / awareness~e.16
+                                                     :topic (c8 / prevent-01~e.15
+                                                                :ARG1 (c9 / disaster~e.14)))))
+                        :ARG1 (c10 / casualty.pl~e.20)
+                        :extent (c15 / great~e.18)
+                        :time~e.21 e~e.22))
+    :snt2 (c17 / duty~e.29
+               :def +
+               :domain~e.25 (c18 / this~e.24)
+               :mod (c19 / minimum~e.28
+                         :def +
+                         :degree (c20 / very~e.27))
+               :ARG1-of (c21 / undertake-01~e.35
+                             :ARG0 (c22 / government-organization~e.33
+                                        :ARG0-of~e.33 (c23 / govern-01~e.33)
+                                        :ARG1-of (c24 / responsible-02~e.32)
+                                        :mod (c25 / any~e.31))
+                             :content-of (c26 / recommend-01~e.34))))
+
+# ::id bolt12_10465_5592.2 ::save-date 07/01/2022 23:50:37 ::annotator SDL-AMR-09
+# ::snt If the simulation program was well designed , circumstances like debris blocking roads , heavy rainfall obstructing parachute drops , power and communication outages should all have been within expectations .
+# ::align a22/1
+(c0 / recommend-01~e.24
+    :condition~e.0 (c18 / design-01~e.6
+                        :ARG1 (c19 / program~e.3
+                                   :def +
+                                   :purpose (c20 / simulate-01~e.2))
+                        :manner (c21 / good-02~e.5))
+    :content (c1 / conform-01
+              :ARG1 (c2 / circumstance.pl~e.8
+                        :quant all~e.25
+                        :example~e.9 (c4 / and~e.21
+                                         :op1 (c5 / block-01~e.11
+                                                  :ARG1 (c6 / road.pl~e.12)
+                                                  :ARG3 (c7 / debris~e.10))
+                                         :op2 (c8 / obstruct-01~e.16
+                                                  :ARG0 (c9 / rain-01~e.15
+                                                            :manner (c10 / heavy~e.14))
+                                                  :ARG1 (c11 / drop-01.pl~e.18
+                                                             :manner (c12 / parachute-01~e.17)))
+                                         :op3 (c13 / out-02.pl
+                                                   :ARG1 (c14 / power-01~e.20))
+                                         :op4 (c15 / out-02.pl
+                                                   :ARG1 (c16 / communicate-01~e.22))))
+              :ARG2 (c17 / expect-01.pl~e.29)))
+
+# ::id bolt12_10474_1421.1 ::save-date 07/01/2022 23:53:21 ::annotator SDL-AMR-09
+# ::snt While it should have been a disaster relief command that takes overall leadership , it has suddenly come face @-@ to @-@ face with the broad base of disaster victims , directly dealing with them .
+# ::align a17/5 a18/24
+(c0 / contrast-01~e.0
+    :ARG2 (c11 / recommend-01~e.2
+               :content (c12 / command-02~e.8
+                          :def -
+                          :ARG1 (c13 / relieve-01~e.7
+                                     :ARG1 (c14 / disaster~e.6))
+                          :ARG0-of (c15 / lead-02~e.10,12
+                                        :mod (c16 / overall~e.11))))
+    :ARG1 (c1 / and
+              :op1 (c2 / face-01~e.18,22
+                       :ARG1~e.23 (c4 / victim.pl~e.29
+                                      :mod (c6 / base~e.26
+                                               :def +
+                                               :ARG1-of (c7 / broad-02~e.25))
+                                      :mod (c5 / disaster~e.28))
+                       :ARG0 (c3 / it~e.1,14)
+                       :manner~e.16 (c8 / sudden~e.16))
+              :op2 (c9 / deal-01~e.32
+                       :ARG2 c4
+                       :ARG0 c3
+                       :ARG1-of (c10 / direct-02~e.31))))
+
+# ::id bolt12_10474_1421.4 ::save-date 07/01/2022 23:53:34 ::annotator SDL-AMR-09
+# ::snt As soon as the earthquake occurred , grass @-@ root organizations contacted their own people and average people also contacted their own systems or departments , in an interdependent manner .
+# ::align a17/3 a18/27
+(c0 / and~e.15
+    :time~e.0,2 (c14 / as-soon-as~e.1,2
+                     :op1 (c15 / earthquake~e.4
+                               :def +))
+    :manner~e.29 (c16 / interdependent~e.28
+                      :def -)
+    :op1 (c1 / contact-01~e.11
+             :ARG0 (c2 / organization.pl~e.10
+                       :mod (c3 / grass-roots~e.7))
+             :ARG1 (c4 / person.pl~e.14
+                       :ARG0-of (c5 / have-org-role-91
+                                    :ARG1 c2)))
+    :op2 (c6 / contact-01~e.19
+             :ARG0 (c7 / person.pl~e.14,17
+                       :ARG1-of (c8 / average-03~e.16))
+             :ARG1 (c9 / or~e.23
+                       :op1 (c10 / system.pl~e.22
+                                 :poss~e.20 p2~e.20)
+                       :op2 (c12 / department.pl~e.24
+                                 :poss c7))
+             :mod (c13 / also~e.18)))
+

@@ -986,7 +986,7 @@
     :ARG0 (c1 / source.pl~e.1
               :mod (c2 / government-organization~e.0
                        :ARG0-of~e.0 (c3 / govern-01~e.0)))
-    :ARG1~e.8 (c4 / visit-01~e.15,20
+    :content~e.8 (c4 / visit-01~e.15,20
                   :ARG0 (c5 / team~e.13
                             :ARG0-of (c6 / have-org-role-91
                                          :ARG1 (c7 / organization
@@ -3206,7 +3206,7 @@
     :location~e.11 (c4 / mainland~e.13
                        :def +)
     :domain~e.14 (c5 / recommend-01~e.25
-                     :ARG1 (c6 / preserve-01~e.26
+                     :content (c6 / preserve-01~e.26
                                :ARG0 (c7 / building.pl~e.24)
                                :ARG1 (c8 / frame~e.29
                                          :part-of (c9 / thing)
@@ -3327,7 +3327,7 @@
                                         :ARG0-of~e.33 (c23 / govern-01~e.33)
                                         :ARG1-of (c24 / responsible-02~e.32)
                                         :mod (c25 / any~e.31))
-                             :ARG1-of (c26 / recommend-01~e.34))
+                             :content-of (c26 / recommend-01~e.34))
                :def +))
 
 # ::annotator SDL-AMR-09
@@ -3335,7 +3335,7 @@
 # ::id bolt12_10465_5592.2
 # ::snt If the simulation program was well designed , circumstances like debris blocking roads , heavy rainfall obstructing parachute drops , power and communication outages should all have been within expectations .
 (c0 / recommend-01~e.24
-    :ARG1 (c1 / conform-01
+    :content (c1 / conform-01
               :ARG1 (c2 / circumstance.pl~e.8
                         :example~e.9 (c4 / and~e.21
                                          :op1 (c5 / block-01~e.11
@@ -3377,7 +3377,7 @@
                        :ARG2 c4
                        :ARG1-of (c10 / direct-02~e.31)))
     :ARG2 (c11 / recommend-01~e.2
-               :ARG1 (c12 / command-02~e.8
+               :content (c12 / command-02~e.8
                           :ARG1 (c13 / relieve-01~e.7
                                      :ARG1 (c14 / disaster~e.6))
                           :ARG0-of (c15 / lead-02~e.10,12

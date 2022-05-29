@@ -17,16 +17,15 @@ def add_plural(snt, g):
                     continue
                 elif not is_instance(triple_pl, g):
                     continue
-                align = make_alignment(g, triple_pl)
+                # align = make_alignment(g, triple_pl)
                 triple_pl = find_agentive_nouns(triple_pl, g)
                 triple_pl = find_have_role(triple_pl, g)
                 # General case, add plural marker
                 for j in range(len(g.triples)):
                     trip = g.triples[j]
                     if trip == triple_pl:
-                        new_trip = tuple([trip[0], trip[1], (trip[2] + '.pl' + align)])
+                        new_trip = tuple([trip[0], ':plural', '+'])
                         g.triples.append(new_trip)
-                        del g.triples[j]
     except Exception as e:
         print("An error has occured for plural:", e)
         pass
