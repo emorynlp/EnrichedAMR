@@ -34,9 +34,9 @@ def add_article(snt, g):
                     align = "~e."+ str(i)
                     if trip == triple_article:
                         if pos[i][0].lower() in ['the']:
-                            new_trip = tuple([trip[0], ':def', '+'])
+                            new_trip = tuple([trip[0], ':definite', '+'])
                         else:
-                            new_trip = tuple([trip[0], ':def', '-'])
+                            new_trip = tuple([trip[0], ':definite', '-'])
                         g.triples.append(new_trip)
     except Exception as e:
         print("An error has occured for article:", e)
